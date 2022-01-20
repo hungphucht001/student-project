@@ -1,0 +1,361 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="chicken.Admin.Site1" %>
+<%
+    if (Session["HUAOJATQQ"] == null)
+    {
+        Response.Redirect("/admin/");
+    }
+    else
+    {
+        %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Chicken | Quản trị website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <webopt:BundleReference runat="server" Path="~/Content/css/bootstrap" />
+    <webopt:bundlereference runat="server" path="~/Admin/assets/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Content/assets/imgs/1x/icon-logo.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+        <div class="wrapper">
+        <div class="site">
+            <div class="box-insert-header"></div>
+            <div class="header">
+                <div class="left">
+                    <div class="site-logo">
+                        <img width="200" src="./../../Content/assets/imgs/1x/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="toggle-menu">
+                        <i class="bi bi-list"></i>
+                    </div>
+                    <div class="control">
+                        <ul>
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="bi bi-person-circle"></i>
+                                    <%=Session["NAME_AD"].ToString() + "("+ Session["CHUCVU"].ToString()+")" %>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Admin/logout.aspx" class="nav-link">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="box-insert">
+                </div>
+                <div class="sidebar">
+                    <div class="title">
+                        <h5>Menu</h5>
+                    </div>
+                    <div class="nav-sidebar">
+                        <ul class="sub">
+                            <li class="item">
+                                <a href="/admin" class="nav-link">
+                                    <i class="bi bi-house-fill"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-list"></i>
+                                        Đơn hàng
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/donhang/quanlydonhang.aspx" class="nav-link">
+                                            Quản lý đơn hàng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/donhang/duyetdonhang.aspx" class="nav-link">
+                                            Duyệt đơn hàng
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <%if (this.Quyen == 1)
+                                {%>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-card-checklist"></i>
+                                        Thực đơn
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/thucdon/quanlythucdon.aspx" class="nav-link">
+                                            Quản lý thực đơn
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/thucdon/themthucdon.aspx" class="nav-link">
+                                            Thêm thực đơn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-journal-medical"></i>
+                                        Tin tức
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/tintuc/quanlybaiviet.aspx" class="nav-link">
+                                            Quản lý bài viết
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/tintuc/thembaiviet.aspx" class="nav-link">
+                                            Thêm bài viết
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-people"></i>
+                                        Nhân viên
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/nhanvien/quanlynhanvien.aspx" class="nav-link">
+                                            Quản lý nhân viên
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/nhanvien/themnhanvien.aspx" class="nav-link">
+                                            Thêm nhân viên
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                        <i class="bi bi-people-fill"></i>
+                                        Khách hàng
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/khachhang/quanlykhachhang.aspx" class="nav-link">
+                                            Quản lý khách hàng
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-envelope-open"></i>
+                                        Thư
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/thu/duyetthu.aspx" class="nav-link">
+                                            Duyệt thư
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <span class="toggle-child">
+                                   <span>
+                                    <i class="bi bi-bar-chart"></i>
+                                        Thống kê
+                                   </span>
+                                    <i class="bi bi-caret-down"></i>
+                                </span>
+                                <ul class="sub-child">
+                                    <li>
+                                        <a href="/admin/thongke/thongkenhanvien.aspx" class="nav-link">
+                                            Thống kê nhân viên
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/thongke/thongkedonhang.aspx" class="nav-link">
+                                            Thống kê đơn hàng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/thongke/thongkedoanhthu.aspx" class="nav-link">
+                                            Thống kê doanh thu
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                             <%}
+                                 else if (this.Quyen == 2)
+                                 {%>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                        <i class="bi bi-journal-medical"></i>
+                                            Tin tức
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/tintuc/quanlybaiviet.aspx" class="nav-link">
+                                                Quản lý bài viết
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/admin/tintuc/thembaiviet.aspx" class="nav-link">
+                                                Thêm bài viết
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                        <i class="bi bi-people"></i>
+                                            Nhân viên
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/nhanvien/quanlynhanvien.aspx" class="nav-link">
+                                                Quản lý nhân viên
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/admin/nhanvien/themnhanvien.aspx" class="nav-link">
+                                                Thêm nhân viên
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                            <i class="bi bi-people-fill"></i>
+                                            Khách hàng
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/khachhang/quanlykhachhang.aspx" class="nav-link">
+                                                Quản lý khách hàng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                        <i class="bi bi-envelope-open"></i>
+                                            Thư
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/thu/duyetthu.aspx" class="nav-link">
+                                                Duyệt thư
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                               
+                            <%}else if (this.Quyen == 3){%>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                            <i class="bi bi-people-fill"></i>
+                                            Khách hàng
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/khachhang/quanlykhachhang.aspx" class="nav-link">
+                                                Quản lý khách hàng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item">
+                                    <span class="toggle-child">
+                                       <span>
+                                        <i class="bi bi-envelope-open"></i>
+                                            Thư
+                                       </span>
+                                        <i class="bi bi-caret-down"></i>
+                                    </span>
+                                    <ul class="sub-child">
+                                        <li>
+                                            <a href="/admin/thu/duyetthu.aspx" class="nav-link">
+                                                Duyệt thư
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                            <%} %>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="wrap-content">
+                        <div class="row">
+                            <asp:ContentPlaceHolder ID="Content" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <asp:Panel ID="Panel1" BackColor="#030C2D" CssClass="mt-5 text-center p-3" runat="server">
+                        <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Được xây dựng bởi "></asp:Label>
+                        <asp:HyperLink ID="HyperLink1" Target="_blank" ForeColor="White" NavigateUrl="https://www.facebook.com/huanl.1602/" runat="server">Hùng Trần</asp:HyperLink>
+                        <asp:Label ID="Label2" runat="server" ForeColor="White" Text=" & "></asp:Label>
+                        <asp:HyperLink ID="HyperLink2" Target="_blank" ForeColor="White" NavigateUrl="https://www.facebook.com/profile.php?id=100004193478961" runat="server">Thuận Trần</asp:HyperLink>
+                    </asp:Panel>
+                </div>
+            </div>
+        </div>
+    </div>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/Admin") %>
+    </asp:PlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentScript" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
+
+    <%
+         } 
+    %>

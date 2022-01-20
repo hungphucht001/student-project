@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="XoaThu.aspx.cs" Inherits="chicken.Admin.Thu.XoaThu" %>

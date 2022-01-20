@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="chicken.Site" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Chicken</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <webopt:BundleReference runat="server" Path="~/Content/css/bootstrap" />
+    <webopt:bundlereference runat="server" path="~/Content/assets/css" />
+    <link href="~/Content/assets/imgs/1x/icon-logo.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="background-header">
+            <div class="inner">
+                <div>
+                    <div class="header">
+                        <div class="navbar">
+                            <div class="site-logo">
+                                <a href="/">
+                                    <img src="../../Content/assets/imgs/1x/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="menu">
+                                <ul class="sub-nav nav-mobile">
+                                    <li class="nav-item">
+                                        <a href="/" class="nav-link">TRANG CHỦ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/thuc-don" class="nav-link">THỰC ĐƠN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/khuyen-mai" class="nav-link">KHUYẾN MÃI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/tin-tuc" class="nav-link">TIN TỨC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/lien-he" class="nav-link">LIÊN HỆ</a>
+                                    </li>
+                                </ul>
+                                <ul class="sub-nav">
+                                    <li class="nav-item">
+                                        <i class="bi bi-search" id="show-search"></i>
+                                        <div class="search" id="search">
+                                            <form action="/thuc-don" method="get">
+                                                <div class="form-group">
+                                                    <div class="single-input">
+                                                        <input type="text" placeholder="Tìm kiếm món ăn" name="search">
+                                                    </div>
+                                                    <div class="single-button">
+                                                        <button type="submit">
+                                                            <i class="bi bi-search"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item mx-4">
+                                        <a href="/gio-hang" style="position:relative;" class="nav-link">
+                                            <i class="bi bi-basket2"></i>
+                                            <asp:Label ID="lbNumCart" CssClass="numCart" runat="server"></asp:Label>
+                                        </a>
+                                    </li>
+                                    <% 
+                                        if(Session["name"] != null){
+                                    %>
+                                    <li class="nav-item">
+                                        <span class="toggle-account">
+                                            <i class="bi bi-person-circle"></i>
+                                            <span class="user_account"><%  Response.Write(Session["name"].ToString()); %></span>
+                                        </span>
+                                        <ul class="sub-account">
+                                            <li>
+                                                <a href="/tai-khoan/a" class="nav-link"><i class="bi bi-person-circle"></i>Tài khoản của tôi</a>
+                                            </li>
+                                            <li>
+                                                <a href="/tai-khoan/b" class="nav-link"><i class="bi bi-list-ul"></i>Đơn hàng của tôi</a>
+                                            </li>
+                                            <li class="logout">
+                                                <a href="/account/logout" class="nav-link"><i class="bi bi-box-arrow-right"></i>Đăng xuất</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <%
+                                    }
+                                    else
+                                    {
+                                    %>
+                                    <li class="nav-item">
+                                         <a href="/dang-nhap" class="nav-link">ĐĂNG NHẬP</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="/dang-ky" class="nav-link btn-click">ĐĂNG KÝ</a>
+                                    </li>
+                                    <%
+                                    }
+                                    %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentBanner" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+            <asp:ContentPlaceHolder ID="Content" runat="server">
+            </asp:ContentPlaceHolder>
+        <div id="toast"></div>
+        <div>
+
+        </div>
+        <footer class="footer pb-3">
+            <div class="wrap-container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="site-logo">
+                            <a href="/"><img src="../../Content/assets/imgs/1x/logo.png" alt=""></a>
+                        </div>
+                        <div class="contact">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        140 Lê Trọng Tấn, phường Tây Thạnh, quận Tân Phú, thành phố Hồ Chí Minh
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:19001602">
+                                        Phone: 19001602
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Email: chicken1602@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="time text-white">
+                            <h3>Thời gian</h3>
+                        </div>
+                        <div class="list-time">
+                            <ul class="p-0">
+                                <li class="text-white">Từ thứ 2 đến thứ 7 vào 8AM - 21h30PM</li>
+                                <li class="text-white">Chủ nhật vào 8AM - 12h30AM</li>
+                            </ul>
+                        </div>
+                        <div class="icon-container follow mt-4">
+                            <div class="icons">
+                                    <div class="icon ">
+                                        <a href="#" class=""><i class="text-white bi bi-facebook"></i></a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#"><i class="text-white bi bi-instagram"></i></a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#"><i class="text-white bi bi-facebook"></i></a>
+                                    </div>
+                                    <div class="icon">
+                                        <a href="#"><i class="text-white bi bi-instagram"></i></a>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFried-Checken-104394198411771&tabs=timeline&width=340&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=219011812793467" width="340" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-bottom:1px solid #ccc"/>
+            <div class="text-center">
+                <span class="text-white">Bản quyền thuộc Chicken - Được xây dựng bởi </span>
+                <a href="https://www.facebook.com/huanl.1602/" target="_blank" class ="text-white">Hùng Trần </a>
+                <span class="text-white"> & </span>
+                <a class="text-white" target="_blank" href="https://www.facebook.com/profile.php?id=100004193478961">Thuận Trần </a>
+            </div>
+        </footer>
+    </div>
+   <div>
+</div>
+    <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+        <%: Scripts.Render("~/bundles/WebForms") %>
+    </asp:PlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    <script>
+        function showToast( title,  message, type) {
+            toast({
+                title: title,
+                message: message,
+                type: type,
+                duration: 5000
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="XoaNhanVien.aspx.cs" Inherits="chicken.Admin.NhanVien.XoaNhanVien" %>
