@@ -1,2 +1,2 @@
-# student-project
-Đồ án sinh viên
+# Đồ án môn thiết kế web
+Thiết kế web đặt gà rán
