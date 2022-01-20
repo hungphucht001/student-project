@@ -1,0 +1,80 @@
+﻿@model PagedList.IPagedList<DT.Entity.tb_NhaCungCap>
+@using PagedList.Mvc;
+@{
+    Layout = "~/Areas/Admin/Views/Supplier/SupplierLayout.cshtml";
+}
+
+<div class="col-lg-12 mb-4">
+    <div class="box-item">
+        <div class="header-box d-flex">
+            <div class="title">
+                <h6>@ViewBag.Title</h6>
+            </div>
+        </div>
+        @RenderBody()
+
+        <table class="table">
+            <tr>
+                <th scope="col">Mã</th>
+                <th scope="col">Tên</th>
+                <th scope="col">Địa chỉ</th>
+                <th scope="col">Email</th>
+                <th scope="col">SDT</th>
+                <th scope="col">Trạng thái</th>
+                <th scope="col">Tác vụ</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr id="Item_@item.MaNCC">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaNCC)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenNCC)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiaChi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SDT)
+                    </td>
+                    <td>
+                        @(item.DaXoa == false?"Hợp tác":"Đã hủy hợp tác")
+                    </td>
+                    <td>
+
+                        <div class="d-flex">
+                            @Ajax.ActionLink(" ", "Cancel", new { @id = item.MaNCC }, new AjaxOptions
+                                    {
+                                        Confirm = "Hủy hợp tác",
+                                        OnComplete = "$('#Item_" + @item.MaNCC + "').remove()",
+                                        HttpMethod = "Cancel",
+                            }, new { @class = "bi bi-archive-fill btn mx-1 btn-danger btn-sm" })
+
+                            <a href="/admin/nha-cung-cap/chi-tiet/@item.MaNCC" class="btn mx-1 btn-success btn-sm">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                            <a href="/admin/nha-cung-cap/sua/@item.MaNCC" class="btn mx-1 btn-secondary btn-sm">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination mb-0 pagination-sm justify-content-end">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+                new PagedListRenderOptions()
+                {
+                    LiElementClasses = new List<string> { "page-item", "page-link" }
+                })
+            </ul>
+        </nav>
+    </div>
+</div>

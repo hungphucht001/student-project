@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Thêm nhà cung cấp</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/nha-cung-cap/them-moi" class="btn btn-primary btn-sm">Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Tất cả nhà cung cấp</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/nha-cung-cap" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">NCC đã ngừng hợp tác</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/nha-cung-cap/ngung-hop-tac" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+</div>

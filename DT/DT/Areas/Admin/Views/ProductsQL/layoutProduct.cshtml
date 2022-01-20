@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Thêm sản phẩm</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/quan-ly-san-pham/them-moi" class="btn btn-primary btn-sm">Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Sản phẩm ngừng kinh doanh</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/quan-ly-san-pham/san-pham-ngung-kinh-doanh" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Sản phẩm hết hàng</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/quan-ly-san-pham/san-pham-het-hang" class="btn btn-primary btn-sm">Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Sản phẩm còn hàng</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/quan-ly-san-pham/san-pham-con-hang" class="btn btn-primary btn-sm">Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+</div>

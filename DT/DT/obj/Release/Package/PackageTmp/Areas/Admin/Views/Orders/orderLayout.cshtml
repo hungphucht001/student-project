@@ -1,0 +1,169 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+    
+}
+@model IEnumerable<DT.Entity.DonHang_Result>
+@using PagedList.Mvc;
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">
+                            Đơn hàng chưa duyệt
+                        </h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/quan-ly-don-hang/chua-duyet" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Đơn hàng chưa thanh toán</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/don-hang/chua-thanh-toan" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Đơn hàng đã thanh toán</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/don-hang/da-thanh-toan" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Đơn hàng đã bị hủy</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/don-hang/don-hang-da-huy" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 mb-4">
+            <div class="box-item">
+                <div class="header-box d-flex mb-4">
+                    <div class="title">
+                        <h6>@RenderBody()</h6>
+                    </div>
+                    <div class="form-search">
+                        <form method="get" action="/admin/quan-ly-don-hang">
+                            <div class="form-group d-flex">
+                                <input type="text" name="p" class="form-control border-1 rounded-0" placeholder="Tìm kiếm">
+                                <button class="my-btn px-3 py-1" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                @if (ViewBag.totalRecord > 0)
+                {
+                    <div class="table-responsive-lg">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Mã</th>
+                                    <th scope="col">Tên NV</th>
+                                    <th scope="col">Tên KH</th>
+                                    <th scope="col">SDT</th>
+                                    <th scope="col">Địa chỉ</th>
+                                    <th scope="col">Ngày Lập</th>
+                                    <th scope="col">Thành tiền</th>
+                                    <th scope="col">Trạng thái</th>
+                                    <th scope="col">Tác vụ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    var clas = "btn-danger";
+                                    <tr>
+                                        <th scope="row">@item.MaHDBH</th>
+                                        <td>@item.HoTenNhanVien</td>
+                                        <td>@item.HoTen</td>
+                                        <td>@item.SDT</td>
+                                        <td>@item.DiaChi</td>
+                                        <td>@item.NgayLap</td>
+                                        <td>@item.ThanhTien</td>
+                                        <td>
+                                            
+                                            @if (item.ID_TrangThai == 2)
+                                            {
+                                                clas = "btn-primary";
+                                            }
+                                            else if (item.ID_TrangThai == 3)
+                                            {
+                                                clas = "btn-warning";
+                                            }
+                                            else if (item.ID_TrangThai == 4)
+                                            {
+                                                clas = "btn-secondary";
+                                            }
+
+                                            <span class="btn white-space-nowrap py-0 @clas btn-sm">
+                                                @item.TrangThai
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <div class="d-flex">
+                                                @if (item.ID_TrangThai != 4)
+                                                {
+
+
+                                                    if (item.ID_TrangThai != 3)
+                                                    {
+                                                        <a href="/admin/don-hang/duyet-don/@item.MaHDBH" class="btn mx-1 btn-warning btn-sm">
+                                                            Duyệt
+                                                        </a>
+                                                    }
+                                                    @*<a href="/admin/chinh-sua-don-hang/@item.MaHDBH" class="btn mx-1 btn-secondary btn-sm">
+                                                        <i class="bi bi-pencil-square"></i>
+                                                    </a>*@
+                                                }
+                                                <a href="/admin/chi-tiet-don-hang/@item.MaHDBH" class="btn mx-1 btn-success btn-sm">
+                                                    <i class="bi bi-eye"></i>
+                                                </a>
+
+                                                @if (item.ID_TrangThai == 1)
+                                                {
+                                                    <a href="/admin/don-hang/huy-don/@item.MaHDBH" class="btn mx-1 btn-danger btn-sm white-space-nowrap">
+                                                        Hủy đơn
+                                                    </a>
+                                                }
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    @RenderPage("~/Areas/Admin/Views/Shared/_Pagination.cshtml")
+                }
+                else
+                {
+                    <div>
+                        <h6>Không có đơn hàng nào</h6>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

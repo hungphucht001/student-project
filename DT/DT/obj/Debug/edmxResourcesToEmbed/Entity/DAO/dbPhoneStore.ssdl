@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbPhoneStoreModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tb_ChucVu">
+    <Key>
+      <PropertyRef Name="MaChucVu" />
+    </Key>
+    <Property Name="MaChucVu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenChucVu" Type="nvarchar" MaxLength="60" />
+  </EntityType>
+  <EntityType Name="tb_CTHDBanHang">
+    <Key>
+      <PropertyRef Name="ID_CTHD" />
+    </Key>
+    <Property Name="MaHDBH" Type="int" Nullable="false" />
+    <Property Name="IMEI" Type="varchar" MaxLength="15" />
+    <Property Name="MaSanPham" Type="int" />
+    <Property Name="ID_CTHD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GiaBan" Type="float" />
+    <Property Name="SoLuong" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_CTHDNhapHang">
+    <Key>
+      <PropertyRef Name="ID_CTHDNH" />
+    </Key>
+    <Property Name="ID_CTHDNH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaHDNH" Type="int" Nullable="false" />
+    <Property Name="MaSP" Type="int" Nullable="false" />
+    <Property Name="GiaNhap" Type="money" Nullable="false" />
+    <Property Name="SoLuong" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_DanhMuc">
+    <Key>
+      <PropertyRef Name="MaDM" />
+    </Key>
+    <Property Name="MaDM" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenDM" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="DaXoa" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_HDBanHang">
+    <Key>
+      <PropertyRef Name="MaHDBH" />
+    </Key>
+    <Property Name="MaHDBH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaNV" Type="int" />
+    <Property Name="MaKH" Type="int" />
+    <Property Name="NgayLap" Type="datetime" />
+    <Property Name="TongTien" Type="money" />
+    <Property Name="GiamGia" Type="money" />
+    <Property Name="ThanhTien" Type="money" />
+    <Property Name="TrangThai" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_HDNhapHang">
+    <Key>
+      <PropertyRef Name="MaHDNH" />
+    </Key>
+    <Property Name="MaHDNH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaNV" Type="int" Nullable="false" />
+    <Property Name="NgayLap" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_KhachHang">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="3" />
+    <Property Name="SDT" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="120" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_NCC_ThgHieu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="MaNCC" Type="int" Nullable="false" />
+    <Property Name="MaThgHieu" Type="int" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_NhaCungCap">
+    <Key>
+      <PropertyRef Name="MaNCC" />
+    </Key>
+    <Property Name="MaNCC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenNCC" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="120" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="120" />
+    <Property Name="SDT" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="DaXoa" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HoTen" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="GioiTinh" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="SDT" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="120" />
+    <Property Name="DaXoa" Type="bit" />
+    <Property Name="Password" Type="nvarchar" MaxLength="250" />
+    <Property Name="ChucVu" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_SanPham">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="120" Nullable="false" />
+    <Property Name="ThgHieu" Type="int" Nullable="false" />
+    <Property Name="MaDanhMuc" Type="int" Nullable="false" />
+    <Property Name="GiaBan" Type="money" />
+    <Property Name="SoLuongTon" Type="int" />
+    <Property Name="ThoiGianBH" Type="int" Nullable="false" />
+    <Property Name="UrlHinh" Type="varchar" MaxLength="1000" />
+    <Property Name="MoTa" Type="nvarchar(max)" />
+    <Property Name="TrangThai" Type="int" />
+    <Property Name="Sale" Type="int" />
+    <Property Name="ThongSo" Type="text" />
+  </EntityType>
+  <EntityType Name="tb_ThuongHieu">
+    <Key>
+      <PropertyRef Name="MaThgHieu" />
+    </Key>
+    <Property Name="MaThgHieu" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenThgHieu" Type="nvarchar" MaxLength="60" Nullable="false" />
+    <Property Name="DaXoa" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_TrangThaiHoaDon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TrangThai" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_TrangThaiSanPham">
+    <Key>
+      <PropertyRef Name="MaTTSP" />
+    </Key>
+    <Property Name="MaTTSP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenTTSP" Type="nvarchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CTHDBanHang_SanPham">
+    <End Role="tb_SanPham" Type="Self.tb_SanPham" Multiplicity="0..1" />
+    <End Role="tb_CTHDBanHang" Type="Self.tb_CTHDBanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_SanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tb_CTHDBanHang">
+        <PropertyRef Name="MaSanPham" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_CTHDNhapHang_HDNH">
+    <End Role="tb_HDNhapHang" Type="Self.tb_HDNhapHang" Multiplicity="1" />
+    <End Role="tb_CTHDNhapHang" Type="Self.tb_CTHDNhapHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_HDNhapHang">
+        <PropertyRef Name="MaHDNH" />
+      </Principal>
+      <Dependent Role="tb_CTHDNhapHang">
+        <PropertyRef Name="MaHDNH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_CTHDNhapHang_SP">
+    <End Role="tb_SanPham" Type="Self.tb_SanPham" Multiplicity="1" />
+    <End Role="tb_CTHDNhapHang" Type="Self.tb_CTHDNhapHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_SanPham">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tb_CTHDNhapHang">
+        <PropertyRef Name="MaSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_HDBanHang_KH">
+    <End Role="tb_KhachHang" Type="Self.tb_KhachHang" Multiplicity="0..1" />
+    <End Role="tb_HDBanHang" Type="Self.tb_HDBanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_KhachHang">
+        <PropertyRef Name="MaKH" />
+      </Principal>
+      <Dependent Role="tb_HDBanHang">
+        <PropertyRef Name="MaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_HDBanHang_NV">
+    <End Role="tb_NhanVien" Type="Self.tb_NhanVien" Multiplicity="0..1" />
+    <End Role="tb_HDBanHang" Type="Self.tb_HDBanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="tb_HDBanHang">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_HDBanHang_TrangThaiHD">
+    <End Role="tb_TrangThaiHoaDon" Type="Self.tb_TrangThaiHoaDon" Multiplicity="1" />
+    <End Role="tb_HDBanHang" Type="Self.tb_HDBanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_TrangThaiHoaDon">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tb_HDBanHang">
+        <PropertyRef Name="TrangThai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_HDNhapHang_NV">
+    <End Role="tb_NhanVien" Type="Self.tb_NhanVien" Multiplicity="1" />
+    <End Role="tb_HDNhapHang" Type="Self.tb_HDNhapHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="tb_HDNhapHang">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_NCC_HangSx_HangSx">
+    <End Role="tb_ThuongHieu" Type="Self.tb_ThuongHieu" Multiplicity="1" />
+    <End Role="tb_NCC_ThgHieu" Type="Self.tb_NCC_ThgHieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_ThuongHieu">
+        <PropertyRef Name="MaThgHieu" />
+      </Principal>
+      <Dependent Role="tb_NCC_ThgHieu">
+        <PropertyRef Name="MaThgHieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_NCC_HangSx_NCC">
+    <End Role="tb_NhaCungCap" Type="Self.tb_NhaCungCap" Multiplicity="1" />
+    <End Role="tb_NCC_ThgHieu" Type="Self.tb_NCC_ThgHieu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_NhaCungCap">
+        <PropertyRef Name="MaNCC" />
+      </Principal>
+      <Dependent Role="tb_NCC_ThgHieu">
+        <PropertyRef Name="MaNCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SanPham_DanhMuc">
+    <End Role="tb_DanhMuc" Type="Self.tb_DanhMuc" Multiplicity="1" />
+    <End Role="tb_SanPham" Type="Self.tb_SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_DanhMuc">
+        <PropertyRef Name="MaDM" />
+      </Principal>
+      <Dependent Role="tb_SanPham">
+        <PropertyRef Name="MaDanhMuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SanPham_ThgHieu">
+    <End Role="tb_ThuongHieu" Type="Self.tb_ThuongHieu" Multiplicity="1" />
+    <End Role="tb_SanPham" Type="Self.tb_SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_ThuongHieu">
+        <PropertyRef Name="MaThgHieu" />
+      </Principal>
+      <Dependent Role="tb_SanPham">
+        <PropertyRef Name="ThgHieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SanPham_TTSP">
+    <End Role="tb_TrangThaiSanPham" Type="Self.tb_TrangThaiSanPham" Multiplicity="0..1" />
+    <End Role="tb_SanPham" Type="Self.tb_SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_TrangThaiSanPham">
+        <PropertyRef Name="MaTTSP" />
+      </Principal>
+      <Dependent Role="tb_SanPham">
+        <PropertyRef Name="TrangThai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_CTHDBanHang_HDBanHang">
+    <End Role="tb_HDBanHang" Type="Self.tb_HDBanHang" Multiplicity="1" />
+    <End Role="tb_CTHDBanHang" Type="Self.tb_CTHDBanHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_HDBanHang">
+        <PropertyRef Name="MaHDBH" />
+      </Principal>
+      <Dependent Role="tb_CTHDBanHang">
+        <PropertyRef Name="MaHDBH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_NhanVien_tb_ChucVu">
+    <End Role="tb_ChucVu" Type="Self.tb_ChucVu" Multiplicity="0..1" />
+    <End Role="tb_NhanVien" Type="Self.tb_NhanVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_ChucVu">
+        <PropertyRef Name="MaChucVu" />
+      </Principal>
+      <Dependent Role="tb_NhanVien">
+        <PropertyRef Name="ChucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ChiTietDonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaHDBH" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="MaHDBH" Type="int" Nullable="false" />
+          <Property Name="ID_SanPham" Type="int" Nullable="false" />
+          <Property Name="TenSP" Type="nvarchar" MaxLength="120" Nullable="false" />
+          <Property Name="Sale" Type="int" />
+          <Property Name="UrlHinh" Type="varchar" MaxLength="1000" />
+          <Property Name="ThoiGianBH" Type="int" Nullable="false" />
+          <Property Name="GiaBan" Type="money" />
+          <Property Name="SoLuong" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="DonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SDT" Type="char" Mode="In" />
+  </Function>
+  <Function Name="DuyetDonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="MaNV" Type="int" Mode="In" />
+  </Function>
+  <Function Name="LayTatCaDonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id_trangthai" Type="int" Mode="In" />
+  </Function>
+  <Function Name="LoginPhoneStore" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="username" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="non_unicode_convert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="nvarchar(max)">
+    <Parameter Name="inputVar" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SanPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="TenSP" Type="nvarchar" MaxLength="120" Nullable="false" />
+          <Property Name="Sale" Type="int" />
+          <Property Name="SoLuongTon" Type="int" />
+          <Property Name="ThoiGianBH" Type="int" Nullable="false" />
+          <Property Name="UrlHinh" Type="varchar" MaxLength="1000" />
+          <Property Name="MoTa" Type="nvarchar(max)" />
+          <Property Name="GiaBan" Type="money" />
+          <Property Name="TenTTSP" Type="nvarchar" MaxLength="60" Nullable="false" />
+          <Property Name="MaTTSP" Type="int" Nullable="false" />
+          <Property Name="TenThgHieu" Type="nvarchar" MaxLength="60" Nullable="false" />
+          <Property Name="TenDM" Type="nvarchar" MaxLength="60" Nullable="false" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="ThongKeDoanhThu" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ThongKeKhachHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ThongKeNhanVien" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ThongKeNhanVienDonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ThongKeThuongHieuSaPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="ThongKeTop10SanPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="TimKiemDonHang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SDT" Type="char" Mode="In" />
+  </Function>
+  <Function Name="TimKiemSanPham" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="query" Type="nvarchar(max)" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="TenSP" Type="nvarchar" MaxLength="120" Nullable="false" />
+          <Property Name="ThgHieu" Type="int" Nullable="false" />
+          <Property Name="MaDanhMuc" Type="int" Nullable="false" />
+          <Property Name="GiaBan" Type="money" />
+          <Property Name="SoLuongTon" Type="int" />
+          <Property Name="ThoiGianBH" Type="int" Nullable="false" />
+          <Property Name="UrlHinh" Type="varchar" MaxLength="1000" />
+          <Property Name="MoTa" Type="nvarchar(max)" />
+          <Property Name="TrangThai" Type="int" />
+          <Property Name="Sale" Type="int" />
+          <Property Name="ThongSo" Type="text" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="top10SP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="MaSanPham" Type="int" />
+          <Property Name="SL" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="dbPhoneStoreModelStoreContainer">
+    <EntitySet Name="tb_ChucVu" EntityType="Self.tb_ChucVu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_CTHDBanHang" EntityType="Self.tb_CTHDBanHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_CTHDNhapHang" EntityType="Self.tb_CTHDNhapHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_DanhMuc" EntityType="Self.tb_DanhMuc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_HDBanHang" EntityType="Self.tb_HDBanHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_HDNhapHang" EntityType="Self.tb_HDNhapHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_KhachHang" EntityType="Self.tb_KhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_NCC_ThgHieu" EntityType="Self.tb_NCC_ThgHieu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_NhaCungCap" EntityType="Self.tb_NhaCungCap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_NhanVien" EntityType="Self.tb_NhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_SanPham" EntityType="Self.tb_SanPham" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_ThuongHieu" EntityType="Self.tb_ThuongHieu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_TrangThaiHoaDon" EntityType="Self.tb_TrangThaiHoaDon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_TrangThaiSanPham" EntityType="Self.tb_TrangThaiSanPham" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CTHDBanHang_SanPham" Association="Self.FK_CTHDBanHang_SanPham">
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+      <End Role="tb_CTHDBanHang" EntitySet="tb_CTHDBanHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_CTHDNhapHang_HDNH" Association="Self.fk_CTHDNhapHang_HDNH">
+      <End Role="tb_HDNhapHang" EntitySet="tb_HDNhapHang" />
+      <End Role="tb_CTHDNhapHang" EntitySet="tb_CTHDNhapHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_CTHDNhapHang_SP" Association="Self.fk_CTHDNhapHang_SP">
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+      <End Role="tb_CTHDNhapHang" EntitySet="tb_CTHDNhapHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_HDBanHang_KH" Association="Self.fk_HDBanHang_KH">
+      <End Role="tb_KhachHang" EntitySet="tb_KhachHang" />
+      <End Role="tb_HDBanHang" EntitySet="tb_HDBanHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_HDBanHang_NV" Association="Self.fk_HDBanHang_NV">
+      <End Role="tb_NhanVien" EntitySet="tb_NhanVien" />
+      <End Role="tb_HDBanHang" EntitySet="tb_HDBanHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_HDBanHang_TrangThaiHD" Association="Self.fk_HDBanHang_TrangThaiHD">
+      <End Role="tb_TrangThaiHoaDon" EntitySet="tb_TrangThaiHoaDon" />
+      <End Role="tb_HDBanHang" EntitySet="tb_HDBanHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_HDNhapHang_NV" Association="Self.fk_HDNhapHang_NV">
+      <End Role="tb_NhanVien" EntitySet="tb_NhanVien" />
+      <End Role="tb_HDNhapHang" EntitySet="tb_HDNhapHang" />
+    </AssociationSet>
+    <AssociationSet Name="fk_NCC_HangSx_HangSx" Association="Self.fk_NCC_HangSx_HangSx">
+      <End Role="tb_ThuongHieu" EntitySet="tb_ThuongHieu" />
+      <End Role="tb_NCC_ThgHieu" EntitySet="tb_NCC_ThgHieu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_NCC_HangSx_NCC" Association="Self.fk_NCC_HangSx_NCC">
+      <End Role="tb_NhaCungCap" EntitySet="tb_NhaCungCap" />
+      <End Role="tb_NCC_ThgHieu" EntitySet="tb_NCC_ThgHieu" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SanPham_DanhMuc" Association="Self.fk_SanPham_DanhMuc">
+      <End Role="tb_DanhMuc" EntitySet="tb_DanhMuc" />
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SanPham_ThgHieu" Association="Self.fk_SanPham_ThgHieu">
+      <End Role="tb_ThuongHieu" EntitySet="tb_ThuongHieu" />
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SanPham_TTSP" Association="Self.fk_SanPham_TTSP">
+      <End Role="tb_TrangThaiSanPham" EntitySet="tb_TrangThaiSanPham" />
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_CTHDBanHang_HDBanHang" Association="Self.FK_tb_CTHDBanHang_HDBanHang">
+      <End Role="tb_HDBanHang" EntitySet="tb_HDBanHang" />
+      <End Role="tb_CTHDBanHang" EntitySet="tb_CTHDBanHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_NhanVien_tb_ChucVu" Association="Self.FK_tb_NhanVien_tb_ChucVu">
+      <End Role="tb_ChucVu" EntitySet="tb_ChucVu" />
+      <End Role="tb_NhanVien" EntitySet="tb_NhanVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

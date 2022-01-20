@@ -1,0 +1,195 @@
+﻿@using DT.Entity.DAO
+@using DT.Models
+@{ 
+    Cart cart;
+    if (Session["cart"] != null)
+    {
+        cart = Session["cart"] as Cart;
+    }
+    else
+    {
+        cart = new Cart();
+    }
+}
+<nav class="navbar py-0 px-md-5 navbar-expand-lg navbar-light" id="navbar">
+    <div class="px-lg-5 w-100 d-flex wrap-menu">
+        <a class="navbar-brand logo" href="/">
+            <img src="~/assets/img/logo.png" style="width:80px" alt="logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-navbar">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Trang Chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/di-dong">Di Động</a>
+                    <div class="sub-navigation">
+                        <div class="container-fluid p-5">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="header between">
+                                        <div class="left">
+                                            <h3>Di Động</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="site-menu">
+                                        <ul class="sub-nav">
+                                            @Html.Action("ThuongHieuMenu", "Partial")
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-4 border-start">
+                                    <div class="card border-0" style="width: 20rem;">
+                                        <img src="~/assets/img/HOME_COMBO_KV_GNB_624X624.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body ps-0">
+                                            <h5 class="card-title">Galaxy Z Fold</h5>
+                                            <a href="#" class="nav-link ps-0">Tìm hiểu thêm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/phu-kien">Phụ Kiện</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tra-cuu-don-hang">Tra cứu đơn hàng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/lien-he">Liên Hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/hoi-dap">Hỏi Đáp</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-control center">
+            <ul class="navbar-nav flex-row nav-icon">
+                <li class="nav-item drop_menu search position-relative center">
+                    <i class="bi bi-search"></i>
+                    <div class="bg-transparent border-0 drop_down">
+                        <form action="/san-pham" method="get">
+                            <div class="input-group">
+                                <input type="text" placeholder="Tìm kiếm" name="p" class="form-control">
+                                <button type="submit" class="btn btn-secondary">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li class="nav-item drop_menu position-relative center cart-AKAIJI">
+                    <i class="bi bi-bag"></i>
+                    <div class="bg-white cart-menu drop_down">
+                        <div class="card border rounded-0 bg-transparent">
+                            <div class="card-header pt-3 bg-transparent">
+                                <h6>Giỏ hàng của bạn</h6>
+                            </div>
+                            <div class="card-body cart">
+                                @{
+                                    if (cart.Items.Count() > 0)
+                                    {
+
+                                        foreach (CartItem item in cart.Items)
+                                        {
+                                            <div class="item-cart" id="cartItem_e_@item.ProductID" >
+                                                <div class="single-image" style="width:70px">
+                                                    <img src="~/assets/img/img_downloaded/@item.ImageUrl" alt="@item.ProductName">
+                                                </div>
+                                                <div class="text me-auto">
+                                                    <h6 class="name-product">
+                                                        @item.ProductName
+                                                    </h6>
+                                                    <span>@item.Quantity x @string.Format("{0:C}", item.Price).Replace("$", "").Replace(".00", "") VNĐ</span>
+                                                </div>
+                                                <div class="remove-item">
+                                                    
+                                                    @Ajax.ActionLink(" ", "Delete", "Cart", new { @id = item.ProductID }, new AjaxOptions
+                                               {
+                                                   Confirm = "Bạn có muốn xóa sản phẩm này khỏi giỏ hàng không",
+                                                   OnComplete = "$('#cartItem_e_" + @item.ProductID + "').remove()",
+                                                   HttpMethod="Delete"
+
+                                               }, new { @class = "bi bi-x-circle text-black" })
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div class="text-center">
+                                            <h6>Giỏ hàng trống</h6>
+                                        </div>
+                                    }
+                                }
+                            </div>
+                            @if (cart.Items.Count() > 0)
+                            {
+                                <div class="card-footer between bg-white py-3">
+                                    <a href="/gio-hang" class="my-btn py-2 px-3">Xem giỏ hàng</a>
+                                    <a href="/thanh-toan" class="my-btn mybtn-out py-2 px-3">Thanh toán</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </li>
+                <li class="btn icon-menu btn-mobile" id="toggle_menu">
+                    <i id="icon-toggle" class="bi bi-list"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul class="navbar-nav flex-column me-auto mb-2 mb-lg-0 my-navbar">
+                <li class="nav-item">
+                    <span>
+                        <a class="nav-link active" aria-current="page" href="/">Trang Chủ</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span class="between">
+                        <a class="nav-link" href="/di-dong">Di Động</a>
+                        <i class="bi bi-plus"></i>
+                    </span>
+                    <ul class="menu-child">
+                        @Html.Action("ThuongHieu","Partial");
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <span class="between">
+                        <a class="nav-link" href="/phu-kien">Phụ Kiện</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <a class="nav-link" href="/tra-cuu-don-hang">Tra cứu đơn hàng</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <a class="nav-link" href="/lien-he">Liên Hệ</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <a class="nav-link" href="/hoi-dap">Hỏi Đáp</a>
+                    </span>
+                </li>
+                <li class="nav-item border-top">
+                    <span>
+                        <a class="nav-link" href="/gio-hang">Giỏ hàng</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span>
+                        <a class="nav-link" href="/thanh-toan">Thanh Toán</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

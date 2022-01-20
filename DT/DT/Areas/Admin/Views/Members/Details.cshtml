@@ -1,0 +1,83 @@
+﻿@model DT.Entity.tb_NhanVien
+
+@{
+    ViewBag.Title = "Nhân viên: "+Model.HoTen;
+    Layout = "~/Areas/Admin/Views/Members/MemberLayout.cshtml";
+}
+<div class="col-12">
+</div>
+<div class="col-lg-6 offset-md-3 offset-sm-0 mb-4">
+    <div class="box-item">
+        <div class="header-box d-flex">
+            <div class="title">
+                <h6>Chi tiết nhân viên</h6>
+            </div>
+        </div>
+        <table class="table">
+            <tr>
+                <th>
+                    Mã
+                </th>
+                <td>@Html.DisplayFor(model => model.MaNV)</td>
+            </tr>
+            <tr>
+                <th>
+                    Họ Tên
+                </th>
+                <td>@Html.DisplayFor(model => model.HoTen)</td>
+            </tr>
+            <tr>
+                <th>
+                    Giới tính
+                </th>
+                <td>@Html.DisplayFor(model => model.GioiTinh)</td>
+            </tr>
+
+            <tr>
+                <th>
+                    Số điện thoại
+                </th>
+                <td>@Html.DisplayFor(model => model.SDT)</td>
+            </tr>
+            <tr>
+                <th>
+                    Ngày sinh
+                </th>
+                <td>@Html.DisplayFor(model => model.NgaySinh)</td>
+            </tr>
+            <tr>
+                <th>
+                    Địa chỉ
+                </th>
+                <td>@Html.DisplayFor(model => model.DiaChi)</td>
+            </tr>
+            <tr>
+                <th>
+                    Trạng thái
+                </th>
+                @if (Model.DaXoa==true)
+                {
+                    <td>Đã nghỉ việc</td>
+                }
+            else 
+                {
+                <td>Nhân viên</td>
+                }
+            </tr>
+            <tr>
+                <th>
+                    Tên đăng nhập
+                </th>
+                <td>@Html.DisplayFor(model => model.Username)</td>
+            </tr>
+            <tr>
+                <th>
+                    Chức vụ
+                </th>
+                <td>@Html.DisplayFor(model => model.tb_ChucVu.TenChucVu)</td>
+            </tr>
+        </table>
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaNV }) |
+        @Html.ActionLink("Quay lại", "Index")
+    </div>
+</div>

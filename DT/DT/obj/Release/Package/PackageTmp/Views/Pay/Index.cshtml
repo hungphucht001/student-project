@@ -1,0 +1,73 @@
+﻿@model DT.Entity.tb_KhachHang
+@{
+    ViewBag.Title= "Thanh toán";
+}
+<div class="section">
+    <div class="content py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-md-3 offset-0">
+                    <div class="title text-center">
+                        <h3>Thông tin đặt hàng</h3>
+                    </div>
+                    <div>
+                        <form action="/thanh-toan" method="post">
+                            @Html.ValidationSummary(true)
+                            <div class="mb-3">
+                                <label class="form-label">Họ tên (*)</label>
+
+                                @Html.TextBoxFor(model => model.HoTen, new
+                                {
+                                    @class = "form-control rounded-0 p-3",
+                                    placeholder = "Tên của bạn",
+                                 })
+
+                                <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.HoTen)</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Số điện thoại (*)</label>
+                                @Html.TextBoxFor(model => model.SDT, new
+                                {
+                                       @class = "form-control rounded-0 p-3",
+                                       placeholder = "Số điện thoại",
+                                    })
+                                <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.SDT)</div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Địa chỉ (*)</label>
+
+                                @Html.TextBoxFor(model => model.DiaChi, new
+                                {
+                                       @class = "form-control rounded-0 p-3",
+                                       placeholder = "Địa chỉ",
+                                    })
+                                <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.DiaChi)</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+
+                                @Html.TextBoxFor(model => model.Email, new
+                                {
+                                       @class = "form-control rounded-0 p-3",
+                                       placeholder = "Email",
+                                       type="email"
+                                 })
+                                <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.Email)</div>
+                            </div>
+
+                            <div class="box-side between mt-5">
+                                <h4 class="mb-0">Tổng tiền</h4>
+                                <h5 class="mb-0">@string.Format("{0:C}", ViewBag.totalPri).Replace("$", "").Replace(".00", "") VNĐ</h5>
+                            </div>
+                            <div class="mt-5 center-Y">
+                                <button type="submit" class="my-btn me-3">Thanh toán</button>
+                                <a href="/san-pham" class="my-btn mybtn-out">Mua thêm</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

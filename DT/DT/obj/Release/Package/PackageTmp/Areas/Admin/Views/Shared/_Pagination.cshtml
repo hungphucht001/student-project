@@ -1,0 +1,52 @@
+﻿@{
+    var crPage = ViewBag.crPage;
+    var totalPage = ViewBag.totalPage;
+    var p = ViewBag.p;
+    var paramSearch = "";
+    if (p != null)
+    {
+        paramSearch = "&p="+p;
+    }
+}
+@if (totalPage > 1)
+{
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+
+                        @if (crPage != 1 && crPage - 2 > 1)
+                        {
+                            <li class="page-item">
+                                <a class="page-link" href="@("?page=1"+paramSearch)" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><span class="page-link text-black">...</span></li>
+                        }
+                        @for (int i = 0; i < totalPage; i++)
+                        {
+                            var page = i + 1;
+
+                            if (crPage == page)
+                            {
+                                <li class="page-item"><span class="page-link bg-black text-white">@page</span></li>
+                            }
+                            else
+                            {
+                                if (page > crPage - 3 && page < crPage + 3)
+                                {
+                                    <li class="page-item"><a class="page-link" href="?page=@page@paramSearch">@page</a></li>
+                                }
+                            }
+                        }
+                        @if (crPage != totalPage && crPage + 2 < totalPage)
+                        {
+                            <li class="page-item"><span class="page-link text-black">...</span></li>
+                            <li class="page-item">
+                                <a class="page-link" href="?page=@totalPage@paramSearch" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+}

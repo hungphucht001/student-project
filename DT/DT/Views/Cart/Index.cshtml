@@ -1,0 +1,96 @@
+﻿@using DT.Models
+@{
+    ViewBag.Title = "Index";
+}
+<div class="section py-5">
+    <div class="title text-center">
+        <h3>Giỏ hàng của bạn</h3>
+    </div>
+    <div class="content my-5">
+        <div class="container">
+            @if ((ViewBag.cart as List<CartItem>).Count() > 0)
+            {
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-1 offset-0">
+                        <div class="list-product" id="list-cart">
+                            @foreach (var item in ViewBag.cart)
+                            {
+                                <div class="box-side" id="cartItem_@item.ProductID">
+                                    <div class="row">
+                                        <div class="col-3 d-none d-md-block">
+                                            <div class="single-image">
+                                                <img src="~/assets/img/img_downloaded/@item.ImageUrl" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 col-10">
+                                            <div class="text">
+                                                <div class="name">
+                                                    <h5 class="d-inline-block">@item.ProductName</h5>
+                                                    <span>-</span>
+                                                    <span class="price">@item.Price đ</span>
+                                                </div>
+                                                <div class="center-Y total">
+                                                    <h6 class="mb-0 me-1">Tổng giá: </h6>
+                                                    <span class="price">@item.SubToTal đ</span>
+                                                </div>
+                                                <div class="update-quantity mt-4">
+                                                    @Ajax.ActionLink("-", "Reduce", new { @id = item.ProductID }, new AjaxOptions
+                                               {
+                                                   HttpMethod = "Reduce",
+
+                                               }, new { @class = "item-update reduce" })
+
+                                                    <span class="item-update number">
+                                                        @item.Quantity
+                                                    </span>
+                                                    @Ajax.ActionLink("+", "Increase", new { @id = item.ProductID }, new AjaxOptions
+                                               {
+
+                                                   HttpMethod = "Increase",
+
+                                               }, new { @class = "item-update increase" })
+                                                    <input type="hidden" class="valNumber" name="/* id sản phẩm */" value="@item.Quantity">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="remove-item text-end">
+                                                @Ajax.ActionLink(" ", "Delete", new { @id = item.ProductID }, new AjaxOptions
+                                           {
+                                               Confirm = "Bạn có muốn xóa sản phẩm này khỏi giỏ hàng không",
+                                               OnComplete = "$('#cartItem_" + @item.ProductID + "').remove()",
+                                               HttpMethod = "Delete",
+
+                                           }, new { @class = "bi bi-x text-black" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <div class="header pb-3 between border-bottom">
+                                <h5 class="mb-0">Tổng</h5>
+                                <h6 id="totalCart">11.000.000 đ</h6>
+                            </div>
+                            <div class="mt-3">
+                                <a href="/thanh-toan" class="w-100 my-btn text-center py-2 ">Tiến hành thanh toán</a>
+                                <a href="/san-pham" class="w-100 my-btn mybtn-out text-center py-2 mt-4">Tiếp tục mua hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    }
+                    else
+                    {
+                //Khi giỏi hàng trống 
+                <div class="empty-cart border-top pt-5 text-center">
+                    <h4>Giỏ hàng trống</h4>
+                    <a href="/san-pham" class="btn bg-primary text-white mt-3" >Tiếp tục mua sản phẩm</a>
+                </div>
+                }
+        </div>
+    </div>
+</div>

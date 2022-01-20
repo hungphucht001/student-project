@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DT.Entity.tb_NCC_ThgHieu>
+
+@{
+    ViewBag.Title = "Deleted";
+    Layout = "~/Areas/Admin/Views/Trademark/TrademarkLayout.cshtml";
+}
+
+<div class="col-lg-12 mb-4">
+    <div class="box-item">
+        <h6>Danh sách thương hiệu đã xóa</h6>
+        <hr />
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.tb_ThuongHieu.MaThgHieu)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.tb_ThuongHieu.TenThgHieu)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.tb_NhaCungCap.TenNCC)
+                </th>
+                <th>Tác vụ</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr id="Item_@item.ID">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tb_ThuongHieu.MaThgHieu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tb_ThuongHieu.TenThgHieu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.tb_NhaCungCap.TenNCC)
+                    </td>
+                    <td>
+                        <div class="d-flex">
+                            <a href="/admin/thuong-hieu/chi-tiet/@item.ID" class="btn mx-1 btn-success btn-sm">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                            <a href="/admin/thuong-hieu/sua/@item.ID" class="btn mx-1 btn-secondary btn-sm">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

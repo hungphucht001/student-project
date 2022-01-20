@@ -1,0 +1,197 @@
+﻿@using DT.Entity
+@using DT.Models
+@{
+    var product = ViewBag.product as tb_SanPham;
+    ViewBag.Title = product.TenSP;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="section bg-white pt-5">
+    <div class="content my-5">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-md-5 offset-md-0 offset-lg-1">
+                    <div class="single-image">
+                        <img src="~/assets/img/img_downloaded/@product.UrlHinh" alt="">
+                    </div>
+                </div>
+                <div class=" col-md-7 col-lg-5 mt-4 mt-md-0">
+                    <form id="myForm2" action="/san-pham/iPhone13-ChinhhangVN-A/1" onsubmit="return validateFormAddToCart()" method="post">
+                        @Html.AntiForgeryToken()
+                        <div class="detail">
+                            <div class="name">
+                                <h5>@product.TenSP</h5>
+                            </div>
+                            @if (product.Sale > 0)
+                            {
+                                <div class="mt-3">
+                                    <img src="~/Assets/img/sale.png" style="width:120px" alt="Alternate Text" />
+                                </div>
+                            
+                            }
+                                <div class="site-price mt-4">
+                                    @if (product.Sale > 0)
+                                    {
+                                        <span class="sale">@((string.Format("{0:C}", product.GiaBan - (product.GiaBan * product.Sale)/100).Replace("$","").Replace(".00", ""))) VNĐ</span>
+
+                                    }
+                                    <span class="price">@((string.Format("{0:C}", product.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                </div>
+
+                                @*<div class="mt-2">
+            <div class="d-flex flex-wrap flex-sm-nowrap">
+                <div class="product-custom mt-3">
+                    <div class="title px-0 py-3">
+                        <span>Màu sắc:</span>
+                    </div>
+                    <div class="center-Y">
+                        <div class="item-color">
+                            <input type="radio" id="id_color1" name="color" value="Đỏ">
+                            <label for="id_color1">
+                                <span>Đỏ</span>
+                            </label>
+                        </div>
+                        <div class="item-color">
+                            <input type="radio" id="id_color2" name="color" value="Xanh">
+                            <label for="id_color2">
+                                <span>Xanh</span>
+                            </label>
+                        </div>
+                        <div class="item-color">
+                            <input type="radio" id="id_color3" name="color" value="Vàng">
+                            <label for="id_color3">
+                                <span>Vang</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-custom ms-sm-0 mt-3 ms-md-2">
+                    <div class="title px-0 py-3">
+                        <span>Dụng lượng:</span>
+                    </div>
+                    <div class="center-Y">
+                        <div class="item-color">
+                            <input type="radio" id="id_capacity1" name="capacity" value="Đỏ">
+                            <label for="id_capacity1">
+                                <span>250G</span>
+                            </label>
+                        </div>
+                        <div class="item-color">
+                            <input type="radio" id="id_capacity2" name="capacity" value="Xanh">
+                            <label for="id_capacity2">
+                                <span>64G</span>
+                            </label>
+                        </div>
+                        <div class="item-color">
+                            <input type="radio" id="id_capacity3" name="capacity" value="Vàng">
+                            <label for="id_capacity3">
+                                <span>32G</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+                                <div class="center-Y my-4">
+                                    <h6 class="mb-0">Thời gian bảo hành: &nbsp;</h6>
+                                    <span>@product.ThoiGianBH</span>
+                                </div>
+                                @if (product.tb_TrangThaiSanPham.MaTTSP == 1)
+                                {
+                                    <div class="center-Y my-4">
+                                        <h6 class="mb-0">Ngừng kinh doanh</h6>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="center-Y my-4">
+                                        <h6 class="mb-0">@(product.SoLuongTon ==0? "Hết hàng": "Còn hàng")</h6>
+                                    </div>
+                                }
+
+                                @if (product.SoLuongTon != 0 && product.tb_TrangThaiSanPham.MaTTSP != 1)
+                                {
+                                    <div class="quantity mt-0 mb-4">
+                                        <div class="title px-0 py-3">
+                                            <span>Số lượng:</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" name="quantity" id="quantity" class="form-control" value="0" min="0">
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <h6 class="mb-0">Liên hê: 19001602</h6>
+                                }
+
+                            </div>
+                            @if (product.SoLuongTon != 0 && product.tb_TrangThaiSanPham.MaTTSP != 1)
+                            {
+                                <input type="hidden" name="id_product" value="@product.ID" />
+
+                                <div class="mt-5">
+                                    <button type="submit" class="my-btn py-2">Thêm vào giỏ hàng</button>
+                                </div>
+                            }
+                            </div>
+                    </form>
+                </div>
+                <div class="col-lg-12 mt-5">
+                    <div class="box-side">
+                        <div class="title ps-0">
+                            <h6>
+                                Thông số kỹ thuật
+                            </h6>
+                        </div>
+                        <div class="content">
+                            @Html.Raw(product.ThongSo)
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-5">
+                    <div class="box-side">
+                        @Html.Raw(product.MoTa)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section pt-5">
+    <div class="title text-center">
+        <h3>Sản phẩm liên quan</h3>
+    </div>
+    <div class="content py-5">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in ViewBag.listProductsByTrademark)
+                {
+                    <div class="col-lg-3 col-md-6">
+                        <div class="item-product">
+                            <div class="item-top">
+                                <div class="single-image">
+                                    <img src="~/assets/img/img_downloaded/@item.UrlHinh" alt="">
+                                </div>
+                                <a href="/san-pham/@(XuLy.Instance.convertToUnSign3(item.TenSP))/@item.ID" class="see-detail nav-link btn rounded-0">Xem chi tiết</a>
+                            </div>
+
+                            <div class="text">
+                                <span>Smartphone</span>
+                                <h6>@item.TenSP</h6>
+                                <div class="site-price">
+                                    @if (item.Sale > 0)
+                                    {
+                                        <span class="sale">@((string.Format("{0:C}", item.GiaBan - (item.GiaBan * item.Sale)/100).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                    }
+                                    <span class="price">@((string.Format("{0:C}", item.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                </div>
+                            </div>
+                            <div class="box-zindex">
+                                <span>New</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+﻿@model DT.Areas.Admin.Models.DoiMatKhau
+@{
+    ViewBag.Title = "TaiKhoan";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+    var nv = ViewBag.nv;
+}
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="box-item">
+                <div class="title">
+                    <h6>Thông tin nhân viên</h6>
+                </div>
+                <table>
+                    <tr>
+                        <th class="py-3" width="200">Mã nhân viên: </th>
+                        <td class="py-3">@nv.MaNV</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Họ Tên: </th>
+                        <td class="py-3">@nv.HoTen</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Giới tính:</th>
+                        <td class="py-3">@nv.GioiTinh</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Số điện thoại: </th>
+                        <td class="py-3">@nv.SDT</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Tên đăng nhập: </th>
+                        <td class="py-3">@nv.Username</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Địa chỉ: </th>
+                        <td class="py-3">@nv.DiaChi</td>
+                    </tr>
+                    <tr>
+                        <th class="py-3" width="200">Chức vụ: </th>
+                        <td class="py-3">@nv.tb_ChucVu.TenChucVu</td>
+                    </tr>
+                </table>
+                <div>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Đổi mật khẩu
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <form action="/admin/tai-khoan" method="post">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Đổi mật khẩu</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="input-group d-flex flex-column my-3">
+                                            @Html.TextBoxFor(model => model.PassCu, new { @class = "form-control w-100", placeholder = "Mật khẩu cũ" })
+                                            @Html.ValidationMessageFor(model => model.PassCu, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="input-group d-flex flex-column my-3">
+                                            @Html.TextBoxFor(model => model.PassMoi, new { @class = "form-control w-100", placeholder = "Mật khẩu mới" })
+                                            @Html.ValidationMessageFor(model => model.PassMoi, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="input-group d-flex flex-column my-3">
+                                            @Html.TextBoxFor(model => model.PassMoi02, new { @class = "form-control w-100", placeholder = "Nhập lại mật khẩu" })
+                                            @Html.ValidationMessageFor(model => model.PassMoi02, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+                                        <button type="submit" class="btn btn-primary">Lưu lại</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

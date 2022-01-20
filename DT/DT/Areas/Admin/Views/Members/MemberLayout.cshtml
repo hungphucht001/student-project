@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Thêm thành viên</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/thanh-vien/them-moi" class="btn btn-primary btn-sm">Thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Thành viên đã xóa</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/thanh-vien/da-xoa" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <div class="box-item">
+                <div class="d-flex HUAOASAY">
+                    <div class="text">
+                        <h6 class="mb-0">Tất cả thành viên</h6>
+                    </div>
+                    <div class="icon-view">
+                        <a href="/admin/thanh-vien" class="btn btn-primary btn-sm">Xem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </div>
+</div>

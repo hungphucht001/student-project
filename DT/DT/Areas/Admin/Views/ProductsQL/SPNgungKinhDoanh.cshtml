@@ -1,0 +1,15 @@
+﻿@model PagedList.IPagedList<DT.Entity.SanPham_Result>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/ProductsQL/layoutProductShow.cshtml";
+}
+<nav aria-label="Page navigation example">
+    <ul class="pagination mb-0 pagination-sm justify-content-end">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+        new PagedListRenderOptions()
+        {
+            LiElementClasses = new List<string> { "page-item", "page-link" }
+        })
+    </ul>
+</nav>

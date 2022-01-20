@@ -1,0 +1,99 @@
+﻿@model DT.Entity.tb_HDBanHang
+    @using DT.Entity.DAO
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+}
+<div class="main mt-0 p-3">
+    <div class="row">
+        <div class="col-md-12 mb-4 box-item">
+            <h6 class="mb-0">Chi tiết đơn hàng</h6>
+        </div>
+        <div class="col-md-12 box-item">
+            <div class="row">
+                <div class="col-md-6">
+                    <table>
+                        <tr>
+                            <th width="200">Mã đơn hàng</th>
+                            <td>@Model.MaHDBH</td>
+                        </tr>
+                        <tr>
+                            <th>Nhân viên:</th>
+                            @if (Model.tb_TrangThaiHoaDon.ID != 1)
+                            {
+                                <td>@Model.tb_NhanVien.HoTen</td>
+                            }
+                            else
+                            {
+                                <td></td>
+                            }
+                        </tr>
+                        <tr>
+                            <th>Họ tên khách hàng:</th>
+                            <td>@Model.tb_KhachHang.HoTen</td>
+                        </tr>
+                        <tr>
+                            <th width="200">Số điện thoại:</th>
+                            <td>@Model.tb_KhachHang.SDT</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <table>
+
+                        <tr>
+                            <th width="200">Địa chỉ:</th>
+                            <td>@Model.tb_KhachHang.DiaChi</td>
+                        </tr>
+                        <tr>
+                            <th>Thành tiền:</th>
+                            <td>@((string.Format("{0:C}", Model.ThanhTien).Replace("$","").Replace(".00", ""))) VNĐ</td>
+                        </tr>
+                        <tr>
+                            <th>Ngày mua:</th>
+                            <td>@Model.NgayLap</td>
+                        </tr>
+                        <tr>
+                            <th>Trạng thái:</th>
+                            <td>@Model.tb_TrangThaiHoaDon.TrangThai</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 box-item mt-4">
+            @foreach (var itemDH in DonHangDAO.Instance.getOrderDetail(Model.MaHDBH))
+            {
+                <div class="row mb-5">
+                    <div class="col-3 d-none d-md-block">
+                        <div class="single-image">
+                            <img src="~/assets/img/img_downloaded/@itemDH.UrlHinh" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="text">
+                            <div class="name">
+                                <h5 class="d-inline-block">@itemDH.TenSP</h5>
+                            </div>
+                            <div class="mt-4">
+                                <div class="mt-4 center-Y">
+                                    <h6 class="mb-0">Số lượng:&nbsp;&nbsp;</h6>
+                                    <span>@itemDH.SoLuong cái</span>
+                                </div>
+                                <div class="mt-4 center-Y">
+                                    <h6 class="mb-0">Giá:&nbsp;&nbsp;</h6>
+                                    <span>@((string.Format("{0:C}", itemDH.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                </div>
+                                <div class="mt-4 center-Y">
+                                    <h6 class="mb-0">Tổng giá:&nbsp;&nbsp;</h6>
+                                    <span>@((string.Format("{0:C}", (itemDH.SoLuong * itemDH.GiaBan)).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

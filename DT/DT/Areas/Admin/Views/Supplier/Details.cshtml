@@ -1,0 +1,54 @@
+﻿@model DT.Entity.tb_NhaCungCap
+@{
+    ViewBag.Title = "Chi tết nhà cung cấp";
+    Layout = "~/Areas/Admin/Views/Supplier/SupplierLayout.cshtml";
+}
+
+<div class="col-12">
+</div>
+<div class="col-lg-6 offset-md-3 offset-sm-0 mb-4">
+    <div class="box-item">
+        <div class="header-box d-flex">
+            <div class="title">
+                <h6>@ViewBag.Title</h6>
+            </div>
+        </div>
+        <table class="table">
+            <tr>
+                <th>
+                    Mã
+                </th>
+                <td>@Html.DisplayFor(model => model.MaNCC)</td>
+            </tr>
+            <tr>
+                <th>
+                    Họ Tên
+                </th>
+                <td>@Html.DisplayFor(model => model.TenNCC)</td>
+            </tr>
+            <tr>
+                <th>
+                    Email
+                </th>
+                <td>@Html.DisplayFor(model => model.Email)</td>
+            </tr>
+
+            <tr>
+                <th>
+                    Số điện thoại
+                </th>
+                <td>@Html.DisplayFor(model => model.SDT)</td>
+            </tr>
+            <tr>
+                <th>
+                    Trạng thái
+                </th>
+                <td>
+                    @(Model.DaXoa == false?"Hợp tác":"Đã hủy hợp tác")
+                </td>
+            </tr>
+        </table>
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaNCC }) |
+        @Html.ActionLink("Quay lại", "Index")
+    </div>
+</div>

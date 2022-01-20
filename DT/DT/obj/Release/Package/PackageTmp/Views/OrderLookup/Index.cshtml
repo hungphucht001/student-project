@@ -1,0 +1,126 @@
+﻿@using DT.Entity.DAO
+@{
+    ViewBag.Title = "Index";
+    var sdt = ViewBag.Sdt;
+}
+
+
+<div class="section py-5">
+    <div class="content mb-5">
+        <div class="container">
+
+            @if (sdt != "")
+            {
+                <div class="center-Y mb-5">
+                    <h6 class="mb-0">Đơn hàng với số điện thoại: &nbsp;</h6>
+                    <span>@sdt</span>
+                </div>
+            }
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box-side">
+                            <div class="title p-0 py-2 border-bottom">
+                                <h6 class="m-0">Tìm kiếm đơn hàng</h6>
+                            </div>
+                            <div class="content pt-2">
+                                <div class="wrap-form">
+                                    <form action="/tra-cuu-don-hang" id="myForm" method="get" onsubmit="return validateForm()">
+                                        <div class="form-group">
+                                            <label for="number">Nhập số điện thoại</label>
+                                            <input id="number" name="sdt" type="number" placeholder="Số điện thoại của bạn" class="rounded-0 form-control p-3 mt-3">
+                                            <button type="submit" class="my-btn w-100 mt-3 py-3 border-0">Tìm</button>
+                                        </div>
+                                    </form>
+                                    <div class="modal" tabindex="-1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content border-0 box-side">
+                                                <div class="modal-header py-0 border-0">
+                                                    <h6 class="modal-title ">Thông báo</h6>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="mb-0">Số diện thoại không hợp lệ (Bao gồm 10 chữ số)</p>
+                                                </div>
+                                                <div class="modal-footer border-0 py-0">
+                                                    <button type="button" class="my-btn py-1">Đóng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9" id="list_order">
+                        @if (sdt != "")
+                        {
+
+                foreach (var item in ViewBag.Order)
+                {
+                        <div class="box-side">
+                            <div class="header between">
+                                <div class="center-Y">
+                                    <h6 class="mb-0">Mã đơn hàng: @item.MaHDBH</h6>
+                                    <span>&nbsp;-&nbsp;</span>
+                                    <span>@item.NgayLap</span>
+                                </div>
+                                <div class="icon-dropdow">
+                                    <i class="bi bi-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div class="mt-4 center-Y">
+                                <h6 class="mb-0">Trạng thái:&nbsp;&nbsp;</h6>
+                                <span>@item.TrangThai</span>
+                            </div>
+                            <div class="mt-4 center-Y">
+                                <h6 class="mb-0">Tổng tiền:&nbsp;&nbsp;</h6>
+                                <span>@((string.Format("{0:C}", item.TongTien).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                            </div>
+                            <div class="mt-3 border-top pt-5 content">
+
+                                @foreach (var itemDH in DonHangDAO.Instance.getOrderDetail(item.MaHDBH))
+                                {
+                                <div class="row mb-5">
+                                    <div class="col-3 d-none d-md-block">
+                                        <div class="single-image">
+                                            <img src="~/assets/img/img_downloaded/@itemDH.UrlHinh" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="text">
+                                            <div class="name">
+                                                <h5 class="d-inline-block">@itemDH.TenSP</h5>
+                                            </div>
+                                            <div class="mt-4">
+                                                <div class="mt-4 center-Y">
+                                                    <h6 class="mb-0">Số lượng:&nbsp;&nbsp;</h6>
+                                                    <span>@itemDH.SoLuong cái</span>
+                                                </div>
+                                                <div class="mt-4 center-Y">
+                                                    <h6 class="mb-0">Giá:&nbsp;&nbsp;</h6>
+                                                    <span>@((string.Format("{0:C}", itemDH.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                                </div>
+                                                <div class="mt-4 center-Y">
+                                                    <h6 class="mb-0">Tổng giá:&nbsp;&nbsp;</h6>
+                                                    <span>@((string.Format("{0:C}", (itemDH.SoLuong * itemDH.GiaBan)).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                }
+                            </div>
+                        </div>
+                }
+                            
+                        }
+                        else
+                        {
+                            <div class="pt-5 text-center">
+                                  <h4>Hãy nhập số điện thoại vào ô bên cạnh để xem đơn hàng đã đặt</h4>
+                             </div>
+                        }
+                            </div>
+                        </div>
+            </div>
+    </div>
+</div>

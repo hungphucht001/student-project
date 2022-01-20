@@ -1,0 +1,12 @@
+﻿@model IEnumerable<DT.Entity.tb_ThuongHieu>
+
+@foreach (var item in Model)
+{
+    <li class="list-group-item ps-0 d-flex justify-content-between border-0 align-items-start">
+        <div class="ms-2 me-auto">
+            <span>
+                <a href="/di-dong/@item.TenThgHieu-@item.MaThgHieu" class="nav-link text-black p-0">@item.TenThgHieu</a>
+            </span>
+        </div>
+    </li>
+}

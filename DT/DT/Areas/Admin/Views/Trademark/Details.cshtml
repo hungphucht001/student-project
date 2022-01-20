@@ -1,0 +1,42 @@
+﻿@model DT.Entity.tb_NCC_ThgHieu
+
+@{
+    ViewBag.Title = "Thương hiệu: "+Model.tb_ThuongHieu.TenThgHieu;
+    Layout = "~/Areas/Admin/Views/Trademark/TrademarkLayout.cshtml";
+}
+<div class="col-lg-12">
+    <div class="box-item">
+        <h6>Chi tiết thương hiệu</h6>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                Tên nhà cung cấp
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.tb_NhaCungCap.TenNCC)
+            </dd>
+
+            <dt>
+                Tên thương hiệu
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.tb_ThuongHieu.TenThgHieu)
+            </dd>
+
+            <dt>
+                Trạng thái
+            </dt>
+
+            <dd>
+                @(Model.tb_ThuongHieu.DaXoa == true?"Đã xóa": "Sử dụng")
+            </dd>
+        </dl>
+        <p>
+            @Html.ActionLink("Chỉnh sửa", "Edit", new {id = Model.ID}) |
+            @Html.ActionLink("Quay lại", "Index")
+        </p>
+    </div>
+</div>
+

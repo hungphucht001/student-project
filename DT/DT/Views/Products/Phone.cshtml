@@ -1,0 +1,71 @@
+﻿@using DT.Entity
+@using DT.Models
+@{
+    ViewBag.Title = "Di động";
+    var xuly = new XuLy();
+}
+
+<div class="section py-5">
+    <div class="content mb-5">
+        <div class="container">
+            <div class="row">
+                
+                @RenderPage("~/Views/Shared/_SideBar.cshtml")
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="box-side">
+                                <div class="sort-by center-Y">
+                                    <span>Sắp xếp</span>
+                                    <div class="dropdown">
+                                        <a class="nav-link dropdown-toggle border py-2 px-3 ms-4" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sắp xếp
+                                        </a>
+                                        <ul class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown4">
+                                            <li><a class="dropdown-item" id="asc_product">Giá tăng dần</a></li>
+                                            <li><a class="dropdown-item" id="desc_product">Giá giảm dần</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="list_product">
+                        @foreach (tb_SanPham sp in ViewBag.listProduct)
+                        {
+                            <div class="col-lg-4 col-md-6">
+                                <div class="item-product">
+                                    <div class="item-top">
+                                        <div class="single-image">
+                                            <img src="~/Assets/img/img_downloaded/@sp.UrlHinh" alt="">
+                                        </div>
+                                        <a href="/san-pham/@xuly.convertToUnSign3(sp.TenSP)/@sp.ID" class="see-detail nav-link btn rounded-0">Xem chi tiết</a>
+                                    </div>
+
+                                    <div class="text">
+                                        <span>Smartphone</span>
+                                        <h6>@sp.TenSP</h6>
+                                        <div class="site-price">
+                                            @if (sp.Sale > 0)
+                                            {
+                                                <span class="sale">@((string.Format("{0:C}", sp.GiaBan - (sp.GiaBan * sp.Sale)/100).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                            }
+                                            <span class="price">@((string.Format("{0:C}", sp.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</span>
+                                        </div>
+                                    </div>
+                                    @if (sp.Sale > 0)
+                                    {
+                                        <div class="box-zindex box-sale">
+                                            <span>- @sp.Sale %</span>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    @RenderPage("~/Views/Shared/_Pagination.cshtml")
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

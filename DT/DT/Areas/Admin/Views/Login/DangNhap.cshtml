@@ -1,0 +1,65 @@
+﻿@model DT.Areas.Admin.Models.Login
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="~/assets/css/normalize.css">
+    <link rel="stylesheet" href="~/assets/css/main.css">
+</head>
+<body id="admin">
+    <div class="login-ad">
+        <div class="wrapper">
+            <div class="item-right item">
+                <div class="wrap">
+                    <div class="title">
+                        <h6>Login as a admin user</h6>
+                    </div>
+                    <div>
+                        <span class="form-text error text-danger">
+                            @ViewBag.err
+                        </span>
+                    </div>
+                    <div class="form">
+                        <form action="/admin/dang-nhap" method="post">
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <div class="form-group mt-4">
+                                @Html.TextBoxFor(model => model.Username, new
+                                {
+                                    @class = "form-control",
+                                    placeholder = "Tên đăng nhập"
+                                })
+                                <i class="bi bi-person"></i>
+                            </div>
+                            <div class="form-text error text-danger ms-3">@Html.ValidationMessageFor(model => model.Username)</div>
+
+                            <div class="form-group mt-4">
+                                @Html.PasswordFor(model => model.Password, new
+                                {
+                                    @class = "form-control",
+                                    placeholder = "Mật khẩu"
+                                })
+                                <i class="bi bi-lock"></i>
+                            </div>
+                            <div class="form-text error text-danger ms-3">@Html.ValidationMessageFor(model => model.Password)</div>
+
+                            <div class="form-group border-0 my-4">
+                                <input type="submit" class="bg-secondary text-white form-control" value="Đăng nhập">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

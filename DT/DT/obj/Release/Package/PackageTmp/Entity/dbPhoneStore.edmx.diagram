@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80e26d0f823044909ab32b1fec10b015" Name="Diagram1">
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_ChucVu" Width="1.5" PointX="1.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_CTHDBanHang" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_CTHDNhapHang" Width="1.5" PointX="11.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_DanhMuc" Width="1.5" PointX="3.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_HDBanHang" Width="1.5" PointX="6" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_HDNhapHang" Width="1.5" PointX="9" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_KhachHang" Width="1.5" PointX="3.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_NCC_ThgHieu" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_NhaCungCap" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_NhanVien" Width="1.5" PointX="3.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_SanPham" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_ThuongHieu" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_TrangThaiHoaDon" Width="1.5" PointX="3.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbPhoneStoreModel.tb_TrangThaiSanPham" Width="1.5" PointX="3.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="dbPhoneStoreModel.FK_tb_NhanVien_tb_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.FK_CTHDBanHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.FK_tb_CTHDBanHang_HDBanHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_CTHDNhapHang_HDNH" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_CTHDNhapHang_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_SanPham_DanhMuc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_HDBanHang_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_HDBanHang_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_HDBanHang_TrangThaiHD" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_HDNhapHang_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_NCC_HangSx_HangSx" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_NCC_HangSx_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_SanPham_ThgHieu" ManuallyRouted="false" />
+        <AssociationConnector Association="dbPhoneStoreModel.fk_SanPham_TTSP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

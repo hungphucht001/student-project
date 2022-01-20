@@ -1,0 +1,1242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\public</_PublishTargetUrl>
+    <History>True|2021-11-27T21:43:51.8674728Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/HomeAdmin/Index.cshtml">
+      <publishTime>11/27/2021 00:59:34</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/HomeAdmin/TaiKhoan.cshtml">
+      <publishTime>11/24/2021 21:45:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Login/DangNhap.cshtml">
+      <publishTime>11/23/2021 12:39:50</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Create.cshtml">
+      <publishTime>11/27/2021 00:12:16</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Delete.cshtml">
+      <publishTime>11/02/2021 01:25:19</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Deleted.cshtml">
+      <publishTime>11/27/2021 00:02:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Details.cshtml">
+      <publishTime>11/27/2021 00:07:11</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Edit.cshtml">
+      <publishTime>11/27/2021 00:12:26</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/Index.cshtml">
+      <publishTime>11/27/2021 00:03:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Members/MemberLayout.cshtml">
+      <publishTime>11/02/2021 16:29:25</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/CancelOrders.cshtml">
+      <publishTime>11/03/2021 14:08:53</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Details.cshtml">
+      <publishTime>11/26/2021 20:10:41</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Edit.cshtml">
+      <publishTime>11/01/2021 08:53:15</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Index.cshtml">
+      <publishTime>11/01/2021 08:24:04</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/orderLayout.cshtml">
+      <publishTime>11/28/2021 01:12:20</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/PaidOrders.cshtml">
+      <publishTime>11/03/2021 14:11:57</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/UnBrowsedOrders.cshtml">
+      <publishTime>11/01/2021 07:57:55</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/UnpaidOrders.cshtml">
+      <publishTime>11/03/2021 14:12:27</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/Create.cshtml">
+      <publishTime>11/26/2021 20:01:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/Edit.cshtml">
+      <publishTime>11/26/2021 19:59:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/Index.cshtml">
+      <publishTime>11/23/2021 20:17:34</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/layoutProduct.cshtml">
+      <publishTime>11/23/2021 20:32:35</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/layoutProductShow.cshtml">
+      <publishTime>11/27/2021 03:12:45</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/SPConHang.cshtml">
+      <publishTime>11/23/2021 20:32:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/SPHetHang.cshtml">
+      <publishTime>11/23/2021 20:32:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ProductsQL/SPNgungKinhDoanh.cshtml">
+      <publishTime>11/23/2021 20:29:29</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/401.cshtml">
+      <publishTime>11/25/2021 01:38:41</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_LayoutPage.cshtml">
+      <publishTime>11/28/2021 03:29:18</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_Pagination.cshtml">
+      <publishTime>11/01/2021 07:51:22</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/Create.cshtml">
+      <publishTime>11/02/2021 19:50:22</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/Deleted.cshtml">
+      <publishTime>11/02/2021 20:28:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/Details.cshtml">
+      <publishTime>11/02/2021 20:17:23</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/Edit.cshtml">
+      <publishTime>11/02/2021 20:11:24</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/Index.cshtml">
+      <publishTime>11/02/2021 20:28:01</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/IndexLayout.cshtml">
+      <publishTime>11/03/2021 16:28:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Supplier/SupplierLayout.cshtml">
+      <publishTime>11/02/2021 20:21:32</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/Index.cshtml">
+      <publishTime>11/28/2021 01:13:04</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/ThongKeDoanhThuTheoThang.cshtml">
+      <publishTime>11/28/2021 01:13:51</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/ThongKeDonHang.cshtml">
+      <publishTime>11/27/2021 00:44:55</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/ThongKeKhachHang.cshtml">
+      <publishTime>11/27/2021 01:11:19</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/ThongKeNhanVien.cshtml">
+      <publishTime>11/27/2021 01:34:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ThongKe/ThongKeSanPham.cshtml">
+      <publishTime>11/27/2021 01:37:32</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Create.cshtml">
+      <publishTime>11/27/2021 02:53:39</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Delete.cshtml">
+      <publishTime>11/03/2021 16:22:43</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Deleted.cshtml">
+      <publishTime>11/27/2021 02:12:30</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Details.cshtml">
+      <publishTime>11/27/2021 02:15:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Edit.cshtml">
+      <publishTime>11/27/2021 02:09:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/Index.cshtml">
+      <publishTime>11/27/2021 02:03:51</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Trademark/TrademarkLayout.cshtml">
+      <publishTime>11/27/2021 02:04:55</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>10/29/2021 22:57:02</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap-icons.css">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.css">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.css.map">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.min.css">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.min.css.map">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/css/main.css">
+      <publishTime>11/28/2021 00:46:18</publishTime>
+    </File>
+    <File Include="Assets/css/normalize.css">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/fonts/bootstrap-icons.woff">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/fonts/bootstrap-icons.woff2">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/back-1.png">
+      <publishTime>11/28/2021 00:44:03</publishTime>
+    </File>
+    <File Include="Assets/img/bannar_001.jpg">
+      <publishTime>11/28/2021 00:30:41</publishTime>
+    </File>
+    <File Include="Assets/img/bannar_002.jpg">
+      <publishTime>11/28/2021 00:41:18</publishTime>
+    </File>
+    <File Include="Assets/img/banner-2.jpg">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/FAQs-x2.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/HOME_COMBO_KV_GNB_624X624.jpg">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/10289.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/12436.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/12443.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/16484.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/16520.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/16522.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/17016.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/17995.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18373.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18378.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18383.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18388.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18395.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/18423.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/19669.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/20645.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/20852.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/21487.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/21489.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/21547.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/21630.png">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/21945.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/22380.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/22479.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/22483.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/22490.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/22699.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/23560.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/23584.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/24245.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/24604.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/24606.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/24746.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25168.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25203.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25214.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25217.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25249.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25251.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25294.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25473.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25691.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25693.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25739.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25740.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25745.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25863.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25864.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/25892.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26051.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26054.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26206.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26220.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26230.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26390.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26435.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26565.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26608.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26795.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26806.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/26846.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27153.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27199.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27350.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27435.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27441.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27451.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27457.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27463.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27468.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27473.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27478.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27485.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27678.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27852.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27859.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/27977.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28013.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28025.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28517.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28523.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28755.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28765.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28776.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28899.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28961.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28965.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/28967.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/29065.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/29201.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/29455.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/29461.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/29796.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30004.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30022.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30086.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30137.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30521.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30759.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30765.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30832.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/30997.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31298.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31299.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31303.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31467.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31470.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31472.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31586.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31637.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/31739.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32007.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32075.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32078.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32177.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32661.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32681.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32724.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/32882.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/33100.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/33485.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/33487.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/33506.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34230.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34503.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34636.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34751.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34805.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34889.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/34930.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35124.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35541.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35566.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35567.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35686.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35714.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35895.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35897.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35907.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35912.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35919.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/35964.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36068.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36227.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36242.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36243.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36485.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36486.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36489.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36491.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36492.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36493.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36495.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36499.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/36505.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/37502.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/3_16_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/637400868092278961_realme-c15-xanh-1_2.png">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/853.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/a1k-do.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme-c20-1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme-c21y_2.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme-c25-1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme_c11_0003_layer_1_2.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme_c11_0003_layer_1_2_2.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/realme_c12_0001_realme_c12-removebg-preview.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/redmi-9c_3__1_2.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/redmi_9a_0005_background.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/redmi_9_0002_layer_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/redmi_9_0002_layer_1_2_2.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/redmi_note_9s_0002_layer_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/sac-khong-day-samsung-ep-6300-3-trong-1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/sac-khong-day-samsung-ep-p1300.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/sac-nhanh-samsung-ta20ew-kem-cap-type-c-chinh-hang.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/vivo-y21s-600x600_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/vsmart-live-4-4gb-1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-11-lite-5g-014_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-mi-10t-pro_2_.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-mi-10t-pro_2__3.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-mi-11-128gb-1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-mi-11t-1_1.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-mi-11t-pro-price-in-usa-500x500.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-poco-x3_2_.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/img_downloaded/xiaomi-redmi-note-10-pro-mi-fan-festival.jpg">
+      <publishTime>10/21/2021 18:40:59</publishTime>
+    </File>
+    <File Include="Assets/img/logo.png">
+      <publishTime>11/28/2021 00:22:36</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/apple.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/chuyentrangsamsung8_7.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/dien-thoai.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/logo.svg">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/smart-watch.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/white-logo.svg">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/logo_hang/xiaomi2.png">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/img/sidebar01.jpg">
+      <publishTime>11/24/2021 17:51:19</publishTime>
+    </File>
+    <File Include="Assets/img/sidebar02.jpg">
+      <publishTime>11/24/2021 17:51:19</publishTime>
+    </File>
+    <File Include="Assets/js/aos.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.js.map">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.min.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.min.js.map">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/jquery.min.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/lodash.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/main.js">
+      <publishTime>10/27/2021 16:45:24</publishTime>
+    </File>
+    <File Include="Assets/js/plugins.js">
+      <publishTime>10/15/2021 19:36:46</publishTime>
+    </File>
+    <File Include="Assets/js/sort_product.js">
+      <publishTime>11/21/2021 20:54:46</publishTime>
+    </File>
+    <File Include="Assets/js/swiper-bundle.min.js">
+      <publishTime>10/15/2021 19:44:26</publishTime>
+    </File>
+    <File Include="Assets/js/validateForm.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="Assets/js/vendor/modernizr-3.11.2.min.js">
+      <publishTime>10/15/2021 19:13:45</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/DT.dll">
+      <publishTime>11/28/2021 04:43:49</publishTime>
+    </File>
+    <File Include="bin/DT.pdb">
+      <publishTime>11/28/2021 04:43:49</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authentication.Abstractions.dll">
+      <publishTime>11/13/2018 00:29:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authentication.Core.dll">
+      <publishTime>11/13/2018 00:29:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authorization.dll">
+      <publishTime>11/13/2018 00:39:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Authorization.Policy.dll">
+      <publishTime>11/13/2018 00:39:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>11/13/2018 00:30:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>11/13/2018 00:30:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>11/13/2018 00:29:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.dll">
+      <publishTime>11/13/2018 00:29:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>11/13/2018 00:29:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>11/13/2018 00:28:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>11/13/2018 00:40:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>04/20/2019 06:24:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
+      <publishTime>11/13/2018 00:37:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Routing.Abstractions.dll">
+      <publishTime>11/13/2018 00:38:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Routing.dll">
+      <publishTime>11/13/2018 00:38:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>11/13/2018 00:29:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>05/16/2018 04:01:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>11/11/2018 07:26:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>11/11/2018 07:26:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/11/2018 07:26:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>05/16/2018 04:01:54</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>11/11/2018 07:26:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>11/13/2018 00:30:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>11/11/2018 07:26:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.ObjectPool.dll">
+      <publishTime>11/11/2018 07:26:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Options.dll">
+      <publishTime>11/11/2018 07:26:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>11/11/2018 07:26:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Net.Http.Headers.dll">
+      <publishTime>11/13/2018 00:28:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>10/01/2013 00:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>10/01/2013 01:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>05/15/2018 20:29:34</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>05/15/2018 20:29:36</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>05/15/2018 20:29:40</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>06/06/2018 20:29:04</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 17:01:36</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>06/06/2018 20:29:04</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encodings.Web.dll">
+      <publishTime>05/15/2018 20:29:52</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>06/06/2018 20:29:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 13:02:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>10/27/2021 01:53:30</publishTime>
+    </File>
+    <File Include="Entity/dbPhoneStore.edmx.diagram">
+      <publishTime>11/28/2021 01:04:53</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/15/2021 19:08:52</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/15/2021 19:08:52</publishTime>
+    </File>
+    <File Include="Scripts/fetchapi.js">
+      <publishTime>11/21/2021 21:24:21</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>10/27/2021 16:41:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>10/27/2021 16:41:21</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>11/26/2021 18:23:53</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>11/28/2021 00:19:40</publishTime>
+    </File>
+    <File Include="Views/DetailProduct/Index.cshtml">
+      <publishTime>11/27/2021 23:12:38</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>10/29/2021 22:48:07</publishTime>
+    </File>
+    <File Include="Views/Home/Err404.cshtml">
+      <publishTime>10/30/2021 12:49:48</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/28/2021 00:45:20</publishTime>
+    </File>
+    <File Include="Views/OrderLookup/Index.cshtml">
+      <publishTime>11/26/2021 19:56:42</publishTime>
+    </File>
+    <File Include="Views/Partial/ThuongHieu.cshtml">
+      <publishTime>11/27/2021 23:45:00</publishTime>
+    </File>
+    <File Include="Views/Partial/ThuongHieuMenu.cshtml">
+      <publishTime>11/27/2021 23:50:47</publishTime>
+    </File>
+    <File Include="Views/Partial/ThuongHieuSideBar.cshtml">
+      <publishTime>11/27/2021 23:48:53</publishTime>
+    </File>
+    <File Include="Views/Pay/Index.cshtml">
+      <publishTime>11/26/2021 18:24:42</publishTime>
+    </File>
+    <File Include="Views/Pay/Thankyou.cshtml">
+      <publishTime>10/15/2021 20:35:20</publishTime>
+    </File>
+    <File Include="Views/Products/Accessory.cshtml">
+      <publishTime>11/26/2021 19:42:04</publishTime>
+    </File>
+    <File Include="Views/Products/Index.cshtml">
+      <publishTime>11/26/2021 19:37:55</publishTime>
+    </File>
+    <File Include="Views/Products/Phone.cshtml">
+      <publishTime>11/26/2021 19:37:54</publishTime>
+    </File>
+    <File Include="Views/QA/Index.cshtml">
+      <publishTime>10/15/2021 20:03:29</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/25/2021 01:40:05</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/28/2021 00:27:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_Navigation.cshtml">
+      <publishTime>11/28/2021 00:26:02</publishTime>
+    </File>
+    <File Include="Views/Shared/_Pagination.cshtml">
+      <publishTime>10/29/2021 20:17:39</publishTime>
+    </File>
+    <File Include="Views/Shared/_SideBar.cshtml">
+      <publishTime>11/27/2021 23:49:56</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/01/2021 00:37:45</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/15/2021 19:08:52</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/28/2021 04:43:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

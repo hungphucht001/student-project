@@ -1,0 +1,8 @@
+﻿@model IEnumerable<DT.Entity.tb_ThuongHieu>
+
+@foreach (var item in Model)
+    {
+        <li class="my-item">
+            <a href="/di-dong/@item.TenThgHieu-@item.MaThgHieu" class="nav-link">@item.TenThgHieu</a>
+        </li>
+    }

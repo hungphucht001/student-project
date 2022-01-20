@@ -1,0 +1,83 @@
+﻿@using DT.Models
+@{
+    Layout = "~/Areas/Admin/Views/ProductsQL/layoutProduct.cshtml";
+    XuLy xl = new XuLy();
+}
+
+<div class="col-lg-12 mb-4">
+    <div class="box-item">
+        <div class="header-box d-flex mb-4">
+            <div class="title">
+                <h6>Tất cả sản phẩm</h6>
+            </div>
+            <div class="form-search">
+                <form>
+                    <div class="form-group d-flex">
+                        <input type="text" name="p" class="form-control border-1 rounded-0" placeholder="Tìm kiếm">
+                        <button class="my-btn px-3 py-1" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="table-responsive-lg">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Mã</th>
+                        <th scope="col">Hình ảnh</th>
+                        <th scope="col">Tên</th>
+                        <th scope="col">Sale</th>
+                        <th scope="col">Giá bán</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Thương hiệu</th>
+                        <th scope="col">Trạng thái</th>
+                        <th scope="col">Tác vụ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td scope="row" style="width:25px">@item.ID</td>
+                            <td>
+                                <div style="width:50px">
+                                    <img src="~/Assets/img/img_downloaded/@item.UrlHinh" alt="Alternate Text" />
+                                </div>
+                            </td>
+                            <td>@item.TenSP</td>
+                            <td>@item.Sale%</td>
+                            <td>@((string.Format("{0:C}", item.GiaBan).Replace("$","").Replace(".00", ""))) VNĐ</td>
+                            <td>@item.SoLuongTon</td>
+                            <td>@item.TenThgHieu</td>
+                            <td>
+                                <span class="btn white-space-nowrap py-0 @(item.TenTTSP.CompareTo("Hết hàng") == 0 ? "btn-warning" : item.TenTTSP.CompareTo("Còn hàng") == 0 ? "btn-primary" : "btn-danger") btn-sm">
+                                    @item.TenTTSP
+                                </span>
+                            </td>
+                            <td>
+                                <div class="d-flex">
+                                    <a href="/san-pham/@xl.convertToUnSign3(item.TenSP)/@item.ID" target="_blank" class="btn mx-1 btn-success btn-sm">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="/admin/quan-ly-san-pham/sua/@item.ID" class="btn mx-1 btn-secondary btn-sm">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                    @if (item.TenTTSP.CompareTo("Ngừng kinh doanh") != 0)
+                                    {
+                                        <a href="/admin/quan-ly-san-pham/ngung-kinh-doanh/@item.ID" class="btn mx-1 btn-danger btn-sm">
+                                            <i class="bi bi-archive-fill"></i>
+                                        </a>
+                                    }
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        @RenderBody()
+    </div>
+</div>

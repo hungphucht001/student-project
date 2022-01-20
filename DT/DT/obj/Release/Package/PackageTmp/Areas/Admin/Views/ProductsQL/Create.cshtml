@@ -1,0 +1,88 @@
+﻿@model DT.Entity.tb_CTHDNhapHang
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage.cshtml";
+}
+
+<div class="main mt-0 p-3">
+    <div class="title box-side">
+        <h6 class="mb-0">Thêm sản phẩm</h6>
+    </div>
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <div class="box-side">
+                <form method="post" action="/admin/quan-ly-san-pham/them-moi" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="row">
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Tên sản phẩm (*)</label>
+                            @Html.TextBoxFor(model => model.tb_SanPham.TenSP, new { @class = "form-control" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.TenSP)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Thương hiệu (*)</label>
+                            @Html.DropDownListFor(model => model.tb_SanPham.ThgHieu, ViewBag.ThgHieu as SelectList, new { @class = "form-control" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.ThgHieu)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Danh mục (*)</label>
+                            @Html.DropDownListFor(model => model.tb_SanPham.MaDanhMuc, ViewBag.MaDanhMuc as SelectList, new { @class = "form-control" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.MaDanhMuc)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Giá nhập (*)</label>
+                            @Html.TextBoxFor(model => model.GiaNhap, new { @class = "form-control", type = "number" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.GiaNhap)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Sale (*)</label>
+                            @Html.TextBoxFor(model => model.tb_SanPham.Sale, new { @class = "form-control", type = "number", value = "0" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.Sale)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Số lượng (*)</label>
+                            @Html.TextBoxFor(model => model.SoLuong, new { @class = "form-control", type = "number" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.SoLuong)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Thời gian bảo hành (*)</label>
+                            @Html.TextBoxFor(model => model.tb_SanPham.ThoiGianBH, new { @class = "form-control", type = "number", min = 0 })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.ThoiGianBH)</div>
+                        </div>
+
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Trạng thái (*)</label>
+                            @Html.DropDownListFor(model => model.tb_SanPham.TrangThai, ViewBag.TrangThai as SelectList, new { @class = "form-control" })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.TrangThai)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Giá bán (*)</label>
+                            @Html.TextBoxFor(model => model.tb_SanPham.GiaBan, new { @class = "form-control", type = "number", min = 0 })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.GiaBan)</div>
+                        </div>
+                        <div class="mb-3 col-md-6 col-sm-12">
+                            <label class="form-label">Hình ảnh (*)</label>
+                            @Html.TextBoxFor(model => model.tb_SanPham.UrlHinh, new { @class = "form-control", type = "file", })
+                            <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.UrlHinh)</div>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="form-label">Thông số (*)</label>
+                        @Html.TextAreaFor(model => model.tb_SanPham.ThongSo, new { @class = "form-control", id = "editor1" })
+                        <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.ThongSo)</div>
+                    </div>
+                    <div>
+                        <label class="form-label">Mô tả (*)</label>
+                        @Html.TextAreaFor(model => model.tb_SanPham.MoTa, new { @class = "form-control", id = "editor2" })
+                        <div class="form-text error text-danger">@Html.ValidationMessageFor(model => model.tb_SanPham.MoTa)</div>
+                    </div>
+                    <div class="mt-4">
+                        <button type="submit" class="btn btn-primary">Thêm mới</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
