@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D374B167-36BD-49BF-B197-CCAB54467E59}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QUANLY_TOUR</RootNamespace>
+    <AssemblyName>QUANLY_TOUR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\ChucVuDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\DataReport.cs" />
+    <Compile Include="DAO\KhachHangDAO.cs" />
+    <Compile Include="DAO\KhachSanDAO.cs" />
+    <Compile Include="DAO\KhuVucDAO.cs" />
+    <Compile Include="DAO\TaiKhoanDAO.cs" />
+    <Compile Include="DAO\NhanVienDAO.cs" />
+    <Compile Include="DAO\PhuongTienDAO.cs" />
+    <Compile Include="DAO\DiaDiemDAO.cs" />
+    <Compile Include="DAO\TourDAO.cs" />
+    <Compile Include="DTO\ChucVuDTO.cs" />
+    <Compile Include="DTO\DangKyTourDTO.cs" />
+    <Compile Include="DTO\DiaDiemDTO.cs" />
+    <Compile Include="DTO\KhachHangDTO.cs" />
+    <Compile Include="DTO\KhachSanDTO.cs" />
+    <Compile Include="DTO\KhuVucDTO.cs" />
+    <Compile Include="DTO\NhanVienDTO.cs" />
+    <Compile Include="DTO\PhuongTienDTO.cs" />
+    <Compile Include="DTO\TaiKhoanDTO.cs" />
+    <Compile Include="DTO\TourDiaDiemDTO.cs" />
+    <Compile Include="DTO\TourDTO.cs" />
+    <Compile Include="DTO\XuLy.cs" />
+    <Compile Include="GUI\CrystalReport\CRDiaDiemTour.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRDiaDiemTour.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\CRDoanhThu.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRDoanhThu.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\CRHoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRHoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\CRKhachSan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRKhachSan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\FormCR\fCRDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\FormCR\fCRDoanhThu.Designer.cs">
+      <DependentUpon>fCRDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\FormCR\fXuatReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CrystalReport\FormCR\fXuatReport.Designer.cs">
+      <DependentUpon>fXuatReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Data\DataSet.cs">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Data\DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Design\ThietKe.cs" />
+    <Compile Include="GUI\fChinhSuaDiaDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaDiaDiem.Designer.cs">
+      <DependentUpon>fChinhSuaDiaDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaKhachHang.Designer.cs">
+      <DependentUpon>fChinhSuaKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaKhachSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaKhachSan.Designer.cs">
+      <DependentUpon>fChinhSuaKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaNhanVien.Designer.cs">
+      <DependentUpon>fChinhSuaNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaPhuongTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaPhuongTien.Designer.cs">
+      <DependentUpon>fChinhSuaPhuongTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChinhSuaTour.Designer.cs">
+      <DependentUpon>fChinhSuaTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fChiTietTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fChiTietTour.Designer.cs">
+      <DependentUpon>fChiTietTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fDangKyTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fDangKyTour.Designer.cs">
+      <DependentUpon>fDangKyTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fDangNhap.Designer.cs">
+      <DependentUpon>fDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fDoiMatKhau.Designer.cs">
+      <DependentUpon>fDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyDoanhThu.Designer.cs">
+      <DependentUpon>fQuanLyDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyKhachSan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyKhachSan.Designer.cs">
+      <DependentUpon>fQuanLyKhachSan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyPhuongTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyPhuongTien.Designer.cs">
+      <DependentUpon>fQuanLyPhuongTien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyKhachHang.Designer.cs">
+      <DependentUpon>fQuanLyKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyNhanVien.Designer.cs">
+      <DependentUpon>fQuanLyNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fQuanLyTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fQuanLyTour.Designer.cs">
+      <DependentUpon>fQuanLyTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fTaiKhoan.Designer.cs">
+      <DependentUpon>fTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fThemKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fThemKhachHang.Designer.cs">
+      <DependentUpon>fThemKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fThemNhanVien.Designer.cs">
+      <DependentUpon>fThemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fThongKe.Designer.cs">
+      <DependentUpon>fThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fTrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fTrangChu.Designer.cs">
+      <DependentUpon>fTrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\CrystalReport\CRDiaDiemTour.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRDiaDiemTour.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CrystalReport\CRDoanhThu.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRDoanhThu.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CrystalReport\CRHoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRHoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CrystalReport\CRKhachSan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRKhachSan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CrystalReport\FormCR\fCRDoanhThu.resx">
+      <DependentUpon>fCRDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CrystalReport\FormCR\fXuatReport.resx">
+      <DependentUpon>fXuatReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaDiaDiem.resx">
+      <DependentUpon>fChinhSuaDiaDiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaKhachHang.resx">
+      <DependentUpon>fChinhSuaKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaKhachSan.resx">
+      <DependentUpon>fChinhSuaKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaNhanVien.resx">
+      <DependentUpon>fChinhSuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaPhuongTien.resx">
+      <DependentUpon>fChinhSuaPhuongTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChinhSuaTour.resx">
+      <DependentUpon>fChinhSuaTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fChiTietTour.resx">
+      <DependentUpon>fChiTietTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fDangKyTour.resx">
+      <DependentUpon>fDangKyTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fDangNhap.resx">
+      <DependentUpon>fDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fDoiMatKhau.resx">
+      <DependentUpon>fDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyDoanhThu.resx">
+      <DependentUpon>fQuanLyDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyKhachSan.resx">
+      <DependentUpon>fQuanLyKhachSan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyPhuongTien.resx">
+      <DependentUpon>fQuanLyPhuongTien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyKhachHang.resx">
+      <DependentUpon>fQuanLyKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyNhanVien.resx">
+      <DependentUpon>fQuanLyNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fQuanLyTour.resx">
+      <DependentUpon>fQuanLyTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fTaiKhoan.resx">
+      <DependentUpon>fTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fThemKhachHang.resx">
+      <DependentUpon>fThemKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fThemNhanVien.resx">
+      <DependentUpon>fThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fThongKe.resx">
+      <DependentUpon>fThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fTrangChu.resx">
+      <DependentUpon>fTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Content\fontawesome\brands.scss" />
+    <None Include="Content\fontawesome\fontawesome.scss" />
+    <None Include="Content\fontawesome\regular.scss" />
+    <None Include="Content\fontawesome\solid.scss" />
+    <None Include="Content\fontawesome\v4-shims.scss" />
+    <None Include="Content\fontawesome\_animated.scss" />
+    <None Include="Content\fontawesome\_bordered-pulled.scss" />
+    <None Include="Content\fontawesome\_core.scss" />
+    <None Include="Content\fontawesome\_fixed-width.scss" />
+    <None Include="Content\fontawesome\_icons.scss" />
+    <None Include="Content\fontawesome\_larger.scss" />
+    <None Include="Content\fontawesome\_list.scss" />
+    <None Include="Content\fontawesome\_mixins.scss" />
+    <None Include="Content\fontawesome\_rotated-flipped.scss" />
+    <None Include="Content\fontawesome\_screen-reader.scss" />
+    <None Include="Content\fontawesome\_shims.scss" />
+    <None Include="Content\fontawesome\_stacked.scss" />
+    <None Include="Content\fontawesome\_variables.scss" />
+    <None Include="Content\webfonts\fa-brands-400.eot" />
+    <None Include="Content\webfonts\fa-brands-400.ttf" />
+    <None Include="Content\webfonts\fa-brands-400.woff" />
+    <None Include="Content\webfonts\fa-brands-400.woff2" />
+    <None Include="Content\webfonts\fa-regular-400.eot" />
+    <None Include="Content\webfonts\fa-regular-400.ttf" />
+    <None Include="Content\webfonts\fa-regular-400.woff" />
+    <None Include="Content\webfonts\fa-regular-400.woff2" />
+    <None Include="Content\webfonts\fa-solid-900.eot" />
+    <None Include="Content\webfonts\fa-solid-900.ttf" />
+    <None Include="Content\webfonts\fa-solid-900.woff" />
+    <None Include="Content\webfonts\fa-solid-900.woff2" />
+    <None Include="GUI\Data\DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GUI\Data\DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="GUI\Data\DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fontawesome\LICENSE.txt" />
+    <Content Include="Content\webfonts\fa-brands-400.svg" />
+    <Content Include="Content\webfonts\fa-regular-400.svg" />
+    <Content Include="Content\webfonts\fa-solid-900.svg" />
+    <Content Include="Scripts\fontawesome\all.js" />
+    <Content Include="Scripts\fontawesome\all.min.js" />
+    <Content Include="Scripts\fontawesome\brands.js" />
+    <Content Include="Scripts\fontawesome\brands.min.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.min.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.min.js" />
+    <Content Include="Scripts\fontawesome\regular.js" />
+    <Content Include="Scripts\fontawesome\regular.min.js" />
+    <Content Include="Scripts\fontawesome\solid.js" />
+    <Content Include="Scripts\fontawesome\solid.min.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

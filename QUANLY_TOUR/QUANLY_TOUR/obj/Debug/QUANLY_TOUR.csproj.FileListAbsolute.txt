@@ -1,0 +1,444 @@
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTimKiem.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+C:\Users\hungt\OneDrive\Desktop\HNAL\HocTap\.NET\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Đồ Án\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\New folder (2)\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fThongKe.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRPhuongTien.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaDiaDiem.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDoiMatKhau.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThongKe.resources
+E:\HNAL\HocTap\.NET\New folder\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fXuatReport.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRKhachSan.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRPhuongTien.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fXuatReport.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaDiaDiem.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDoiMatKhau.resources
+D:\OneDrive\HUFI\Semester 5\.Net Technology\Do an\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThongKe.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fXuatReport.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaDiaDiem.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDoiMatKhau.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThongKe.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemNhanVien.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRDoanhThu.resources
+C:\Users\Zobax\Desktop\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe.config
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.exe
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\QUANLY_TOUR.pdb
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\stdole.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.AssemblyReference.cache
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fCRDoanhThu.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.CrystalReport.FormCR.fXuatReport.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaDiaDiem.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachHang.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaKhachSan.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaNhanVien.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaPhuongTien.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fChinhSuaTour.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fChiTietTour.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDangKyTour.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fDangNhap.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fDoiMatKhau.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyDoanhThu.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachSan.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fMain.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyPhuongTien.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fQuanLyKhachHang.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyNhanVien.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.fQuanLyTour.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTaiKhoan.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemKhachHang.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThemNhanVien.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fThongKe.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.GUI.fTrangChu.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.Properties.Resources.resources
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.GenerateResource.cache
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CoreCompileInputs.cache
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.csproj.CopyComplete
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.exe
+C:\Users\Zobax\Desktop\Phần mềm quản lý tour du lịch\QUANLY_TOUR\QUANLY_TOUR\obj\Debug\QUANLY_TOUR.pdb
