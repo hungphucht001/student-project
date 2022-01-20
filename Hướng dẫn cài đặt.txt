@@ -1,0 +1,14 @@
+----------Hướng dẫn cài đặt-------------
+
+
+-----Server:
+
+=>Add tất cả các file "jar" trong thư mục "jar_server".
+
+
+-----Client:
+
+=>Add tất cả các file "jar" trong thư mục "jar_client".
+
+========================================================
+Xin cảm ơn
